@@ -4,8 +4,8 @@
  * Creates a new book entry in src/books/
  *
  * Usage:
- *   node add-book.mjs "Title" "Author"
- *   node add-book.mjs "Title"              # author optional
+ *   node add-book.mjs "Title" "Author" [tag1 tag2 ...]
+ *   node add-book.mjs "Title"                            # author + tags optional
  */
 
 import fs from "fs/promises";
@@ -16,10 +16,10 @@ const OUTPUT_DIR = "./src/books";
 
 // ── Args ─────────────────────────────────────────────────────────────────────
 
-const [title, author] = process.argv.slice(2);
+const [title, author, ...extraTags] = process.argv.slice(2);
 
 if (!title) {
-  console.error('Usage: node add-book.mjs "Title" "Author"');
+  console.error('Usage: node add-book.mjs "Title" "Author" [tag1 tag2 ...]');
   process.exit(1);
 }
 
@@ -78,7 +78,10 @@ function toSlug(str) {
 // ── Main ─────────────────────────────────────────────────────────────────────
 
 async function main() {
-  console.log(`\nAdding: ${title}${author ? ` by ${author}` : ""}\n`);
+  const tags = ["books", ...extraTags.map((t) => t.toLowerCase())];
+
+  console.log(`\nAdding: ${title}${author ? ` by ${author}` : ""}`)
+  if (extraTags.length) console.log(`Tags:   ${tags.join(", ")}`);
 
   console.log("Looking up ISBN via Open Library…");
   const { isbn, resolvedAuthor } = await lookupIsbn(title, author ?? "");
@@ -104,7 +107,7 @@ async function main() {
     `date: ${today}`,
     `slug: ${slug}`,
     "tags:",
-    "  - books",
+    ...tags.map((t) => `  - ${t}`),
     "---",
     "",
     "",
