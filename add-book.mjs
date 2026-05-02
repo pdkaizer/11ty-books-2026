@@ -35,7 +35,7 @@ async function lookupIsbn(title, author) {
     const qs = new URLSearchParams({
       ...(params.title  ? { title:  params.title  } : {}),
       ...(params.author ? { author: params.author } : {}),
-      fields: "isbn,author_name",
+      fields: "isbn,author_name,title",
       limit: "1",
     });
 
@@ -53,7 +53,11 @@ async function lookupIsbn(title, author) {
         null;
 
       if (isbn) {
-        return { isbn, resolvedAuthor: doc.author_name?.[0] ?? null };
+        return {
+          isbn,
+          resolvedAuthor: doc.author_name?.[0] ?? null,
+          matchedTitle: doc.title ?? null,
+        };
       }
     } catch {
       // network hiccup — try next query
@@ -62,7 +66,7 @@ async function lookupIsbn(title, author) {
     await sleep(200);
   }
 
-  return { isbn: null, resolvedAuthor: null };
+  return { isbn: null, resolvedAuthor: null, matchedTitle: null };
 }
 
 // ── Slug ─────────────────────────────────────────────────────────────────────
@@ -84,11 +88,16 @@ async function main() {
   if (extraTags.length) console.log(`Tags:   ${tags.join(", ")}`);
 
   console.log("Looking up ISBN via Open Library…");
-  const { isbn, resolvedAuthor } = await lookupIsbn(title, author ?? "");
+  const { isbn, resolvedAuthor, matchedTitle } = await lookupIsbn(title, author ?? "");
   const finalAuthor = author ?? resolvedAuthor ?? "";
 
-  if (isbn) console.log(`✅ ISBN: ${isbn}`);
-  else      console.log("⚠️  ISBN not found — you can add it manually");
+  if (isbn) {
+    const titleMatch = matchedTitle?.toLowerCase() === title.toLowerCase();
+    console.log(`✅ ISBN: ${isbn}`);
+    if (!titleMatch) console.log(`⚠️  Matched: "${matchedTitle}" — verify this is correct`);
+  } else {
+    console.log("⚠️  ISBN not found — you can add it manually");
+  }
 
   const today = new Date().toISOString().split("T")[0];
   const slug = toSlug(title);
