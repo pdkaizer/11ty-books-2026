@@ -14,7 +14,6 @@ excerpt: |
 coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2016/08/tumblr_obm9uzhwjr1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
-Stephanie Danler
 
 A thrilling novel of the senses and a coming-of-age tale, following a small-town girl into the electrifying world of New York City and the education of a lifetime at one of the most exclusive restaurants in Manhattan.  Perfect for readers of *Kitchen Confidential and _Blood, Bones and Butter_.
 

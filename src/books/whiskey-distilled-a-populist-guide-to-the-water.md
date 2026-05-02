@@ -15,7 +15,6 @@ excerpt: |
 coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2017/12/tumblr_p19gqarjlj1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
-Heather Greene
 
 **In the populist tradition of Andrea Immer, New York City’s first female whiskey sommelier translates today’s hottest spirit for a new generation of imbibers**
 

@@ -14,10 +14,6 @@ excerpt: |
 coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2012/03/tumblr_m13bbv5zz41rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
-South of Broad
-
-Pat Conroy
-
 **The publishing event of the season: The one and only Pat Conroy returns, with a big, sprawling novel that is at once a love letter to Charleston and to lifelong friendship.**
 
 Against the sumptuous backdrop of Charleston, South Carolina, _South of Broad_ gathers a unique cast of sinners and saints. Leopold Bloom King, our narrator, is the son of an amiable, loving father who teaches science at the local high school. His mother, an ex-nun, is the high school principal and a well-known Joyce scholar. After Leo’s older brother commits suicide at the age of thirteen, the family struggles with the shattering effects of his death, and Leo, lonely and isolated, searches for something to sustain him. Eventually, he finds his answer when he becomes part of a tightly knit group of high school seniors that includes friends Sheba and Trevor Poe, glamorous twins with an alcoholic mother and a prison-escapee father; hardscrabble mountain runaways Niles and Starla Whitehead; socialite Molly Huger and her boyfriend, Chadworth Rutledge X; and an ever-widening circle whose liaisons will ripple across two decades-from 1960s counterculture through the dawn of the AIDS crisis in the 1980s.

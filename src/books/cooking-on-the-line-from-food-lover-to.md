@@ -16,7 +16,6 @@ excerpt: |
 coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2015/01/tumblr_ni8537ovsk1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
-Wayne Cohen
 
 **Cooking On the Line&hellip;from Food Lover to Professional Line Cook**, is a unique behind the scenes, ground level, cook&rsquo;s-eye-view of the professional restaurant kitchen. You will feel the heat, the pressure, and the intensity of cooking at the highest level. With no formal training, Wayne Cohen pursues his passion for food, changes careers in mid life, and becomes part of the legendary, hyper-competitive restaurant industry.
 

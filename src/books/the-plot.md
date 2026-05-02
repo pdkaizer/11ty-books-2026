@@ -14,7 +14,6 @@ excerpt: |
 coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2021/07/the-plot-674x1024.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
-Jean Hanff Korelitz
 
 Jacob Finch Bonner was once a promising young novelist with a respectably published first book. Today, he’s teaching in a third-rate MFA program and struggling to maintain what’s left of his self-respect; he hasn’t written―let alone published―anything decent in years. When Evan Parker, his most arrogant student, announces he doesn’t need Jake’s help because the plot of his book in progress is a sure thing, Jake is prepared to dismiss the boast as typical amateur narcissism. But then . . . he hears the plot.
 

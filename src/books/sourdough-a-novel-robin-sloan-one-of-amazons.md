@@ -13,7 +13,6 @@ excerpt: "Lois Clary is a software engineer at General Dexterity, a San Francisc
 coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2017/12/tumblr_p1q8t7zpry1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
-Robin Sloan
 
 In his much-anticipated new novel, Robin Sloan does for the world of food what he did for the world of books in _Mr. Penumbra’s 24-Hour Bookstore_
 

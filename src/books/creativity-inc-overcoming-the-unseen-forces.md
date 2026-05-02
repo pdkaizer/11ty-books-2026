@@ -15,7 +15,6 @@ excerpt: |
 coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2015/04/tumblr_nmwi5awycy1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
-Ed Catmull
 
 From Ed Catmull, co-founder (with Steve Jobs and John Lasseter) of Pixar Animation Studios, comes an incisive book about creativity in business—sure to appeal to readers of Daniel Pink, Tom Peters, and Chip and Dan Heath. _Forbes _raves that *Creativity, Inc. *“just might be the business book ever written.”
 

@@ -11,10 +11,6 @@ excerpt: |
   Sous Chef: 24 Hours on the Line Michael Gibney The back must slave to feed the belly… . *In this urgent and unique book, chef Michael Gibney uses twenty-four hours to animate the intricate camaraderie and culinary choreography in an upscale New York restaurant kitchen. Here readers will find all the details, in rapid-fire succession, …
 ---
 
-Sous Chef: 24 Hours on the Line
-
-Michael Gibney
-
 _The back must slave to feed the belly… . *In this urgent and unique book, chef Michael Gibney uses twenty-four hours to animate the intricate camaraderie and culinary choreography in an upscale New York restaurant kitchen. Here readers will find all the details, in rapid-fire succession, of what it takes to deliver an exceptional plate of food—the journey to excellence by way of exhaustion._
 
 Told in second-person narrative, *Sous Chef is an immersive, adrenaline-fueled run that offers a fly-on-the-wall perspective on the food service industry, allowing readers to briefly inhabit the hidden world behind the kitchen doors, in real time. This exhilarating account provides regular diners and food enthusiasts alike a detailed insider’s perspective, while offering fledgling professional cooks an honest picture of what the future holds, ultimately giving voice to the hard work and dedication around which chefs have built their careers.

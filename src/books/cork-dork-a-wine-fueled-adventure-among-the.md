@@ -14,7 +14,6 @@ excerpt: |
 coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2017/07/tumblr_otbbasridg1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
-Bianca Bosker
 
 Professional journalist and amateur drinker Bianca Bosker didn’t know much about wine—until she discovered an alternate universe where taste reigns supreme, a world of elite sommeliers who dedicate their lives to the pursuit of flavor. Astounded by their fervor and seemingly superhuman sensory powers, she set out to uncover what drove their obsession and whether she, too, could become a “cork dork.”
 

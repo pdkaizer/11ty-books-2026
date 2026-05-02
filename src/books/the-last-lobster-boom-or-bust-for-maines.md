@@ -14,7 +14,6 @@ excerpt: |
 coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2018/10/tumblr_ph64gpmhk71rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
-Christopher White
 
 From the author of _Skipjack_ & _The Melting World_ comes a mystery: the curious boom in America’s beloved lobster industry and its probable crash
 

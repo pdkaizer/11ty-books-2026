@@ -16,7 +16,6 @@ excerpt: |
 coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2015/04/tumblr_nmlqvxbecg1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
-Brent Schlender
 
 There have been many books—on a large and small scale—about Steve Jobs, one of the most famous CEOs in history. But this book is different from all the others.
 

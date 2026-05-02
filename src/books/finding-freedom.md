@@ -14,7 +14,6 @@ excerpt: |
 coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2021/08/finding-freedom-674x1024.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
-Erin French
 
 Long before The Lost Kitchen became a world dining destination with every seating filled the day the reservation book opens each spring, Erin French was a girl roaming barefoot on a 25-acre farm, a teenager falling in love with food while working the line at her dad’s diner and a young woman finding her calling as a professional chef at her tiny restaurant tucked into a 19th century mill. This singular memoir―a classic American story―invites readers to Erin's corner of her beloved Maine to share the real person behind the “girl from Freedom” fairytale, and the not-so-picture-perfect struggles that have taken every ounce of her strength to overcome, and that make Erin’s life triumphant. 
 

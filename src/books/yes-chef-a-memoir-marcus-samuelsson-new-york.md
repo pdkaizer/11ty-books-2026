@@ -12,10 +12,6 @@ excerpt: |
 coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2013/02/tumblr_mht87wixuh1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
-Yes, Chef: A Memoir
-
-Marcus Samuelsson
-
 _NEW YORK TIMES *BESTSELLER • NAMED ONE OF THE TEN BEST BOOKS OF THE YEAR BY *VOGUE_
 
 “One of the great culinary stories of our time.”—Dwight Garner, _The New York Times_

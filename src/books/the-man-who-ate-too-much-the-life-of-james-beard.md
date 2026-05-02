@@ -14,7 +14,6 @@ excerpt: |
 coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2021/08/man-ate-too-much-672x1024.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
-John Birdsall
 
 In the first portrait of James Beard in twenty-five years, John Birdsall accomplishes what no prior telling of Beard’s life and work has done: He looks beyond the public image of the "Dean of American Cookery" to give voice to the gourmet’s complex, queer life and, in the process, illuminates the history of American food in the twentieth century. At a time when stuffy French restaurants and soulless Continental cuisine prevailed, Beard invented something strange and new: the notion of an American cuisine.
 

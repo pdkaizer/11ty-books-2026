@@ -13,7 +13,6 @@ excerpt: |
 coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2018/03/tumblr_p58fieox2t1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
-Celeste Ng
 
 In Shaker Heights, a placid, progressive suburb of Cleveland, everything is planned – from the layout of the winding roads to the colors of the houses to the successful lives its residents will go on to lead. And no one embodies this spirit more than Elena Richardson, whose guiding principle is playing by the rules.
 

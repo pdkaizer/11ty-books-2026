@@ -15,7 +15,6 @@ excerpt: |
 coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2018/08/tumblr_pd7jivq8tf1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
-Ernest Cline
 From the author of _Ready Player One_, a rollicking alien invasion thriller that embraces and subverts science-fiction conventions as only Ernest Cline can. 
 
 Zack Lightman has never much cared for reality. He vastly prefers the countless science-fiction movies, books, and videogames he’s spent his life consuming. And too often, he catches himself wishing that some fantastic, impossible, world-altering event could arrive to whisk him off on a grand spacefaring adventure.

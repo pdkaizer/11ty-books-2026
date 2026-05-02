@@ -15,7 +15,6 @@ excerpt: |
 coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2016/06/tumblr_o8pkzcemhb1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
-Bill Buford
 
 Bill Buford—author of the highly acclaimed best-selling _Among the Thugs—_had long thought of himself as a reasonably comfortable cook when in 2002 he finally decided to answer a question that had nagged him every time he prepared a meal: What kind of cook could he be if he worked in a professional kitchen? When the opportunity arose to train in the kitchen of Mario Batali’s three-star New York restaurant, Babbo, Buford grabbed it. *Heat *is the chronicle—sharp, funny, wonderfully exuberant—of his time spent as Batali’s “slave” and of his far-flung apprenticeships with culinary masters in Italy.
 

@@ -13,7 +13,6 @@ excerpt: |
 coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2017/09/tumblr_ovtmjlkbfj1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
-Pat Conroy
 
 Pat Conroy tells the story of Tom Wingo, his twin sister, Savannah, and the dark and violent past of the family into which they were born. Set in New York City and the low country of South Carolina, the novel opens when Tom, a high school football coach whose marriage and career are crumbling, flies from South Carolina to New York after learning of his twin sister&rsquo;s suicide attempt. Savannah is one of the most gifted poets of her generation, and both the cadenced beauty of her art and the jumbled cries of her illness are clues to the too-long-hidden story of her wounded family. 
 

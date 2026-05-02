@@ -14,10 +14,6 @@ excerpt: |
 coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2012/03/tumblr_m13x8utref1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
-My Reading Life
-
-Pat Conroy
-
 **Bestselling author Pat Conroy acknowledges the books that have shaped him and celebrates the profound effect reading has had on his life. **
 
 Pat Conroy, the beloved American storyteller, is a voracious reader. Starting as a childhood passion that bloomed into a life-long companion, reading has been Conroy’s portal to the world, both to the farthest corners of the globe and to the deepest chambers of the human soul. His interests range widely, from Milton to Tolkien, Philip Roth to Thucydides, encompassing poetry, history, philosophy, and any mesmerizing tale of his native South. He has for years kept notebooks in which he records words and expressions, over time creating a vast reservoir of playful turns of phrase, dazzling flashes of description, and snippets of delightful sound, all just for his love of language. But for Conroy reading is not simply a pleasure to be enjoyed in off-hours or a source of inspiration for his own writing. It would hardly be an exaggeration to claim that reading has saved his life, and if not his life then surely his sanity.

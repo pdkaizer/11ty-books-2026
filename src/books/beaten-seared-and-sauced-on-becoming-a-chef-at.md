@@ -15,7 +15,6 @@ excerpt: |
 coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2012/03/tumblr_m13b0zmeqp1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
-Jonathan Dixon
 
 Millions of people fantasize about leaving their old lives behind, enrolling in cooking school, and training to become a chef. But for those who make the decision, the difference between the dream and reality can be gigantic—especially at the top cooking school in the country. For the first time in the Culinary Institute of America’s history, a book will give readers the firsthand experience of being a full-time student facing all of the challenges of the legendary course in its entirety.
 

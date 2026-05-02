@@ -14,7 +14,6 @@ excerpt: |
 coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2018/01/tumblr_p1urglqlpk1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
-Ian Purkayastha
 
 Ian Purkayastha is New York City&rsquo;s leading truffle importer and boasts a devoted clientele of top chefs nationwide, including Jean-Georges Vongerichten, David Chang, Sean Brock, and David Bouley. But before he was purveying the world&rsquo;s most expensive fungus to the country&rsquo;s most esteemed chefs, Ian was just a food-obsessed teenager in rural Arkansas&ndash;a misfit with a peculiar fascination for rare and exotic ingredients.
 

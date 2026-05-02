@@ -14,7 +14,6 @@ excerpt: |
 coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2019/01/tumblr_plqhpfw2be1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
-Michael Connelly
 
 **Harry Bosch teams up with LAPD detective Renée Ballard to solve the murder of a young girl in the new thriller from #1 *New York Times *bestselling author Michael Connelly.**
 

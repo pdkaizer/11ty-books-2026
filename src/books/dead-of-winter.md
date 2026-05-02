@@ -14,7 +14,6 @@ excerpt: |
 coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2021/07/dead-of-winter-683x1024.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
-Stephen Mack Jones
 
 Authentico Foods Inc. has been a part of Detroit’s Mexicantown for over thirty years, grown from a home kitchen business to a city-blocklong facility that supplies Mexican tortillas to restaurants throughout the Midwest. 
 

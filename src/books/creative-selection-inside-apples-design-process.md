@@ -14,15 +14,6 @@ excerpt: |
 coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2019/03/tumblr_pp4w02ux1n1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
-Ken Kocienda
-
-
-
-
-
-
-
-
 
 **An insider’s account of Apple’s creative process during the golden years of Steve Jobs.**
 

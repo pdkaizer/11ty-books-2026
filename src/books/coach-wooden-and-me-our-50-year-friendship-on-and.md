@@ -16,7 +16,6 @@ excerpt: |
 coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2017/07/tumblr_otd1n1kyjq1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
-Kareem Abdul-Jabbar
 
 When future NBA legend Kareem Abdul-Jabbar was still an 18-year-old high school basketball prospect from New York City named Lew Alcindor, he accepted a scholarship from UCLA largely on the strength of Coach John Wooden&rsquo;s reputation as a winner. It turned out to be the right choice, as Alcindor and his teammates won an unprecedented three NCAA championship titles. But it also marked the beginning of one of the most extraordinary and enduring friendships in the history of sports. In COACH WOODEN AND ME, Abdul-Jabbar reveals the inspirational story of how his bond with John Wooden evolved from a history-making coach-player mentorship into a deep and genuine friendship that transcended sports, shaped the course of both men&rsquo;s lives, and lasted for half a century.
 

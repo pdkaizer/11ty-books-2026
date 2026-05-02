@@ -14,10 +14,6 @@ excerpt: |
 coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2012/03/tumblr_m13b3ynmyn1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
-Three Stages of Amazement: A Novel
-
-Carol Edgarian
-
 A sweeping, richly compassionate novel about marriage, ambition, and the reclaiming of love—by the bestselling novelist and cofounder of* Narrative* magazine.
 Many love stories end in marriage; rare is the love story that begins with one—already promised, already worn.  Set in San Francisco during the first year of Obama’s presidency,* Three Stages of Amazement* deftly charts the struggles and triumphs of Lena Rusch and her husband Charlie Pepper, still believe they can have it all–sex, love, marriage, children, career, brilliance. But life delivers surprises and tests–a stillborn child, an economic crash, a ruthless business rival and the attentions of an old lover. Touched by tragedy and by ordinary hopes unmet, Lena and Charlie must face, for the first time in their lives, real limitation.
 Fifteen years after her stunning debut,* Rise the Euphrates*, Carol Edgarian has created a panoramic and deeply moving story about business and family and the demands of love in our time. She takes readers on a spellbinding journey inside America today, with an unforgettable cast of characters including Cal Rusch, Lena’s uncle, a Silicon Valley titan, and Ivy, his socialite wife, who engender complication in the lives of all the people they touch: their grown children, business partners, friends, the servants and workers upon whom the glamorous life depends–and Lena, whose quest for grace is the pulse of this gorgeous novel.

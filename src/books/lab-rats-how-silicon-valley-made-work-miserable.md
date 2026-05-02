@@ -14,11 +14,6 @@ excerpt: |
 coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2019/01/tumblr_plqhmmubtg1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
-Dan Lyons
-
-
-
-
 
 _New York Times bestselling author Dan Lyons exposes how the “new oligarchs” of Silicon Valley have turned technology into a tool for oppressing workers in this “passionate” (_Kirkus_) and “darkly funny” (_Publishers Weekly*) examination of workplace culture.
 

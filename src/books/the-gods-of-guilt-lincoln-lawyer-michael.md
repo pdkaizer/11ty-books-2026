@@ -12,10 +12,6 @@ excerpt: |
 coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2014/02/tumblr_n0dejzdunb1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
-The Gods of Guilt (Lincoln Lawyer)
-
-Michael Connelly
-
 **Defense attorney Mickey Haller returns with a haunting case in the gripping new thriller from #1 *New York Times *bestselling author Michael Connelly.
 
 **Mickey Haller gets the text, “Call me ASAP &#8211; 187,” and the California penal code for murder immediately gets his attention. Murder cases have the highest stakes and the biggest paydays, and they always mean Haller has to be at the top of his game.

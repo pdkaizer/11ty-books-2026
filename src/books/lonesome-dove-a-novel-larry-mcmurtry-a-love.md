@@ -15,7 +15,6 @@ excerpt: |
 coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2017/08/tumblr_ovf5qymvgz1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
-Larry McMurtry
 
 A love story, an adventure, and an epic of the frontier, Larry McMurtry’s Pulitzer Prize-winning classic, Lonesome Dove, the third book in the Lonesome Dove tetralogy, is the grandest novel ever written about the last defiant wilderness of America.
 

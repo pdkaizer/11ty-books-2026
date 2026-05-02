@@ -14,7 +14,6 @@ excerpt: |
 coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2016/06/tumblr_o8pkn8dsfp1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
-Michael Connelly
 
 Harry Bosch crosses the line to team up with Lincoln Lawyer Mickey Haller in the new thriller from #1 New York Times bestselling author Michael Connelly.
 

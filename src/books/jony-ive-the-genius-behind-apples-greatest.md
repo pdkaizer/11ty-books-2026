@@ -12,10 +12,6 @@ excerpt: |
 coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2013/12/tumblr_mxunlw1kjw1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
-Jony Ive: The Genius Behind Apple’s Greatest Products
-
-Leander Kahney
-
 “Different and new is relatively easy. Doing something that’s genuinely better is very hard.” —Jony Ive
 
 In 1997, Steve Jobs returned to Apple as CEO with the unenviable task of turning around the company he had founded. One night, Jobs discovered a scruffy British designer toiling away at Apple’s corporate headquarters, surrounded by hundreds of sketches and prototypes. It was then that Jobs realized he had found a talent who could reverse the company’s long decline.

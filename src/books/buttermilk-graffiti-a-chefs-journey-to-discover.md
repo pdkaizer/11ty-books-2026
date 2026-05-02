@@ -14,7 +14,6 @@ excerpt: |
 coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2018/04/tumblr_p7pcjeo4rd1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
-Edward Lee
 
 “Thoughtful, well researched, and truly moving. Shines a light on what it means to cook and eat American food, in all its infinitely nuanced and ever-evolving glory.” —Anthony Bourdain   Named one of Publishers Weekly’s Top 10 Food Books for Spring 2018
 

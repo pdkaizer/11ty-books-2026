@@ -15,7 +15,6 @@ excerpt: |
 coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2016/01/tumblr_o1oc092u9q1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
-Daniel Glick
 
 After losing his brother to cancer and a painful divorce that left him the sole charge d'affaires of two decidedly spirited children, environmental reporter Daniel Glick knew he and his little family desperately needed some karmic rejuvenation. He opted for an epic adventure. In the summer of 2001, Dan, Zoe, and Kolya packed up and set off on a six-month tour to see the world&rsquo;s most exotic and endangered habitats.
 

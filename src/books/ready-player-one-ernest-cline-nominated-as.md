@@ -14,7 +14,6 @@ excerpt: |
 coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2018/06/tumblr_pa3x1ihofz1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
-Ernest Cline
 
 Nominated as one of America’s best-loved novels by PBS’s *The Great American Read
 

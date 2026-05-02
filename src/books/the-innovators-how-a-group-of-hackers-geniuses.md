@@ -14,7 +14,6 @@ excerpt: |
 coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2015/01/tumblr_ni855ul0jr1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
-Walter Isaacson
 
 Following his blockbuster biography of Steve Jobs, _The Innovators_ is Walter Isaacson’s revealing story of the people who created the computer and the Internet. It is destined to be the standard history of the digital revolution and an indispensable guide to how innovation really happens.
 

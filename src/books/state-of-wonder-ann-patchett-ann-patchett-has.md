@@ -12,10 +12,6 @@ excerpt: |
 coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2012/11/tumblr_mdvgqlisjp1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
-State of Wonder
-
-Ann Patchett
-
 Ann Patchett has dazzled readers with her award-winning books, including _The Magician’s Assistant_ and the _New York Times_ bestselling _Bel Canto_. Now she raises the bar with _State of Wonder_, a provocative and ambitious novel set deep in the Amazon jungle.
 
 Dr. Marina Singh, a research scientist with a Minnesota pharmaceutical company, is sent to Brazil to track down her former mentor, Dr. Annick Swenson, who seems to have all but disappeared in the Amazon while working on what is destined to be an extremely valuable new drug, the development of which has already cost the company a fortune. Nothing about Marina’s assignment is easy: not only does no one know where Dr. Swenson is, but the last person who was sent to find her, Marina’s research partner Anders Eckman, died before he could complete his mission. Plagued by trepidation, Marina embarks on an odyssey into the insect-infested jungle in hopes of finding her former mentor as well as answers to several troubling questions about her friend’s death, the state of her company’s future, and her own past.

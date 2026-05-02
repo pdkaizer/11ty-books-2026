@@ -15,7 +15,6 @@ excerpt: |
 coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2016/06/tumblr_o8pkg8c8hu1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
-Dan Lyons
 
 &ldquo;_Disrupted_ by Dan Lyons is the best book about Silicon Valley today.&rdquo;&mdash;|_Los Angeles Times_
 

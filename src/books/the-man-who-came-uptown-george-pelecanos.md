@@ -14,7 +14,6 @@ excerpt: |
 coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2018/10/tumblr_ph64je89nn1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
-George Pelecanos
 
 In bestselling and Emmy-nominated writer George Pelecanos’ “taut and suspenseful” new novel, an ex-offender must choose between the man who got him out and the woman who showed him another path (_Booklist_, Starred Review)
 

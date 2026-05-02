@@ -14,7 +14,6 @@ excerpt: |
 coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2017/03/tumblr_omvo7yfsy11rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
-Yvon Chouinard
 
 Whether you care about adventure sports, the fate of the natural world, or pure brand maintenance and business success, Patagonia, Inc. is one of the earth&rsquo;s most interesting and inspiring companies. For almost forty years, its reputation for unsurpassed high quality, maverick innovation, and long-term environmental responsibility has put it in a class by itself. And everything flows from Patagonia&rsquo;s founder, Yvon Chouinard
 

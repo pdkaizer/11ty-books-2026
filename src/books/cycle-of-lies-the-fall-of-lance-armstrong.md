@@ -14,7 +14,6 @@ excerpt: |
 coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2016/06/tumblr_o8pkumqvlr1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
-Juliet Macur
 
 The definitive account of Lance Armstrong&rsquo;s spectacular rise and fall.
 

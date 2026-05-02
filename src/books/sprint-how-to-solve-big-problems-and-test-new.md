@@ -15,7 +15,6 @@ excerpt: |
 coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2017/10/tumblr_ox7xcaizo01rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
-Jake Knapp
 
 “_Sprint_ offers a transformative formula for testing ideas that work whether you’re at a startup or a large organization. Within five days, you’ll move from idea to prototype to decision, saving you and your team countless hours and countless dollars. A must-read for entrepreneurs of all stripes.” —Eric Ries, author of _The Lean Startup_
 

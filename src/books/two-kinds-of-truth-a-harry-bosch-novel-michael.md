@@ -14,7 +14,6 @@ excerpt: |
 coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2017/12/tumblr_p107kdgric1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
-Michael Connelly
 
 **Harry Bosch searches for the truth in the new thriller from #1 NYT bestselling author Michael Connelly**
 
