@@ -1,0 +1,68 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: collections.books
+  size: 12
+  alias: books
+permalink: "{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber + 1 }}/{% else %}/{% endif %}"
+---
+
+<div class="book-archive l-wrapper">
+
+  {% if pagination.pageNumber === 0 %}
+    <div class="book-archive__header">
+      <p class="book-archive__eyebrow">Peter Kaizer</p>
+      <h1 class="book-archive__heading">Recommended Books</h1>
+    </div>
+  {% else %}
+    <div class="book-archive__header">
+      <p class="book-archive__eyebrow">Peter Kaizer — Recommended Books</p>
+      <h1 class="book-archive__heading">Page {{ pagination.pageNumber + 1 }}</h1>
+    </div>
+  {% endif %}
+
+  <ul class="book-grid" aria-label="Book list">
+    {% for book in books %}
+      <li>
+        <a href="{{ book.url }}" class="book-card">
+          <div class="book-card__cover">
+            {% bookCover book.data.isbn, book.data.title, book.data.coverUrl %}
+          </div>
+          <div class="book-card__meta">
+            <h2 class="book-card__title">{{ book.data.title }}</h2>
+            {% if book.data.author %}
+              <p class="book-card__author">{{ book.data.author }}</p>
+            {% endif %}
+          </div>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  {% if pagination.pages.length > 1 %}
+    <nav class="pagination" aria-label="Page navigation">
+      <ul class="pagination__list">
+        {% if pagination.href.previous %}
+          <li>
+            <a href="{{ pagination.href.previous }}" class="pagination__link pagination__link--prev">← Prev</a>
+          </li>
+        {% endif %}
+        {% for pageEntry in pagination.pages %}
+          <li>
+            <a
+              href="{{ pagination.hrefs[loop.index0] }}"
+              class="pagination__link{% if loop.index0 === pagination.pageNumber %} pagination__link--current{% endif %}"
+              {% if loop.index0 === pagination.pageNumber %}aria-current="page"{% endif %}
+            >{{ loop.index }}</a>
+          </li>
+        {% endfor %}
+        {% if pagination.href.next %}
+          <li>
+            <a href="{{ pagination.href.next }}" class="pagination__link pagination__link--next">Next →</a>
+          </li>
+        {% endif %}
+      </ul>
+    </nav>
+  {% endif %}
+
+</div>

@@ -1,0 +1,38 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  addAllPagesToCollections: true
+permalink: /tag/{{ tag | slug }}/
+eleventyComputed:
+  title: "{{ tag | capitalize }} books"
+---
+
+<div class="book-archive l-wrapper">
+
+  <div class="book-archive__header">
+    <p class="book-archive__eyebrow">Peter Kaizer — Recommended Books</p>
+    <h1 class="tag-archive__heading">{{ tag | capitalize }}</h1>
+  </div>
+
+  <ul class="book-grid" aria-label="{{ tag | capitalize }} books">
+    {% for book in collections[tag] %}
+      <li>
+        <a href="{{ book.url }}" class="book-card">
+          <div class="book-card__cover">
+            {% bookCover book.data.isbn, book.data.title, book.data.coverUrl %}
+          </div>
+          <div class="book-card__meta">
+            <h2 class="book-card__title">{{ book.data.title }}</h2>
+            {% if book.data.author %}
+              <p class="book-card__author">{{ book.data.author }}</p>
+            {% endif %}
+          </div>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>

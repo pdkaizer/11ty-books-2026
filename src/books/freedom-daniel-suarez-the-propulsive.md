@@ -1,0 +1,24 @@
+---
+title: "Freedom"
+author: "Daniel Suarez"
+isbn: "9788489367982"
+date: 2014-08-13
+slug: freedom-daniel-suarez-the-propulsive
+categories:
+  - books
+  - fiction
+excerpt: |
+  Freedom ™ Daniel Suarez The propulsive, shockingly plausible sequel to New York Times bestseller DaemonIn one of the most buzzed-about debuts of 2009, Daniel Suarez introduced a terrifying vision of a new world order, controlled by the Daemon, an insidious computer program unleashed by a hi-tech wunderkind, Daemon captured the attention of the tech community, …
+---
+
+Freedom ™
+
+Daniel Suarez
+
+The propulsive, shockingly plausible sequel to New York Times bestseller DaemonIn one of the most buzzed-about debuts of 2009, Daniel Suarez introduced a terrifying vision of a new world order, controlled by the Daemon, an insidious computer program unleashed by a hi-tech wunderkind, Daemon captured the attention of the tech community, became a New York Times and Indie bestseller, and left readers hungry for more.
+
+Well, more is here, and it’s even more gripping than its predecessor.
+
+In the opening chapters of Freedom™, the Daemon is firmly in control, using an expanded network of real-world, dispossessed darknet operatives to tear apart civilization and rebuild it anew. Soon civil war breaks out in the American Midwest, in a brutal wave of violence that becomes known as the Corn Rebellion. Former detective Pete Sebeck, now the Daemon’s most powerful-though reluctant-operative, must lead a small band of enlightened humans toward a populist movement designed to protect the new world order. But the private armies of global business are preparing to crush the Daemon once and for all.
+
+In a world of conflicted loyalties, rapidly diminishing human power, and the possibility that anyone can be a spy, what’s at stake is nothing less than human freedom’s last hope to survive the technology revolution.

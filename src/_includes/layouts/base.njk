@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if title %}{{ title }} — {% endif %}Peter Kaizer | Recommended Books</title>
+  <meta name="description" content="{% if excerpt %}{{ excerpt }}{% else %}Peter Kaizer's recommended books across fiction, non-fiction, biography, technology, and food.{% endif %}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/main.css">
+  <script>
+    try {
+      var t = localStorage.getItem('theme');
+      if (t === 'dark' || (!t && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    } catch(e) {}
+  </script>
+</head>
+<body>
+
+<div class="l-site">
+
+  <header class="site-header" id="site-header">
+    <div class="l-wrapper">
+      <a href="/" class="site-logo">Peter Kaizer — Recommended Books</a>
+      <div class="site-header__controls">
+        <button class="nav-toggle" aria-controls="primary-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <svg class="nav-toggle__open" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M2 4h12M2 8h12M2 12h12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+          <svg class="nav-toggle__close" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M3 3l10 10M13 3L3 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </button>
+        <ul class="site-nav" id="primary-nav" role="list">
+          <li><a href="https://peterkaizer.com">peterkaizer.com</a></li>
+          <li><a href="/tag/fiction/">Fiction</a></li>
+          <li><a href="/tag/non-fiction/">Non-fiction</a></li>
+          <li><a href="/tag/biography/">Biography</a></li>
+          <li><a href="/tag/technology/">Technology</a></li>
+          <li><a href="/tag/food/">Food</a></li>
+        </ul>
+        <button class="theme-toggle" aria-label="Toggle dark mode" id="theme-toggle">
+          <svg class="theme-toggle__sun" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <circle cx="8" cy="8" r="3" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M8 1v2M8 13v2M1 8h2M13 8h2M3.05 3.05l1.41 1.41M11.54 11.54l1.41 1.41M3.05 12.95l1.41-1.41M11.54 4.46l1.41-1.41" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+          <svg class="theme-toggle__moon" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M13.5 10A6 6 0 016 2.5a6 6 0 100 11 6 6 0 007.5-3.5z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="content">
+    {{ content | safe }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="l-wrapper">
+      <div class="site-footer__info">
+        <span>© {{ "" | date("yyyy") if "" else "2025" }} Peter Kaizer</span>
+        <span>Recommended reading</span>
+      </div>
+      <a href="https://peterkaizer.com">peterkaizer.com →</a>
+    </div>
+  </footer>
+
+</div>
+
+<script>
+  // Mobile nav toggle
+  var header = document.getElementById('site-header');
+  var toggle = header.querySelector('.nav-toggle');
+  toggle.addEventListener('click', function() {
+    var open = header.hasAttribute('data-menu-open');
+    if (open) {
+      header.removeAttribute('data-menu-open');
+      toggle.setAttribute('aria-expanded', 'false');
+    } else {
+      header.setAttribute('data-menu-open', '');
+      toggle.setAttribute('aria-expanded', 'true');
+    }
+  });
+
+  // Theme toggle
+  var themeToggle = document.getElementById('theme-toggle');
+  themeToggle.addEventListener('click', function() {
+    var dark = document.documentElement.getAttribute('data-theme') === 'dark';
+    var next = dark ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    try { localStorage.setItem('theme', next); } catch(e) {}
+  });
+</script>
+
+</body>
+</html>

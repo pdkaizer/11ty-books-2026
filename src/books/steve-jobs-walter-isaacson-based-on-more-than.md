@@ -1,0 +1,26 @@
+---
+title: "Steve Jobs"
+author: "Walter Isaacson"
+isbn: "9788499921181"
+date: 2012-03-18
+slug: steve-jobs-walter-isaacson-based-on-more-than
+tags:
+  - biography
+  - non-fiction
+  - technology
+categories:
+  - books
+excerpt: |
+  Driven by demons, Jobs could drive those around him to fury and despair. But his personality and products were interrelated, just as Apple’s hardware and software tended to be as if part of an integrated system
+coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2012/03/tumblr_m133q9tzj51rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
+---
+
+Walter Isaacson
+
+Based on more than forty interviews with Jobs conducted over two years—as well as interviews with more than a hundred family members, friends, adversaries, competitors, and colleagues—Walter Isaacson has written a riveting story of the roller-coaster life and searingly intense personality of a creative entrepreneur whose passion for perfection and ferocious drive revolutionized six industries: personal computers, animated movies, music, phones, tablet computing, and digital publishing. 
+
+At a time when America is seeking ways to sustain its innovative edge, and when societies around the world are trying to build digital-age economies, Jobs stands as the ultimate icon of inventiveness and applied imagination. He knew that the best way to create value in the twenty-first century was to connect creativity with technology. He built a company where leaps of the imagination were combined with remarkable feats of engineering.   
+
+Although Jobs cooperated with this book, he asked for no control over what was written nor even the right to read it before it was published. He put nothing off-limits. He encouraged the people he knew to speak honestly. And Jobs speaks candidly, sometimes brutally so, about the people he worked with and competed against. His friends, foes, and colleagues provide an unvarnished view of the passions, perfectionism, obsessions, artistry, devilry, and compulsion for control that shaped his approach to business and the innovative products that resulted. 
+
+Driven by demons, Jobs could drive those around him to fury and despair. But his personality and products were interrelated, just as Apple’s hardware and software tended to be as if part of an integrated system. His tale is instructive and cautionary, filled with lessons about innovation, character, leadership, and values.

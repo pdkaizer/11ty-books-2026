@@ -1,0 +1,33 @@
+---
+layout: layouts/base.njk
+---
+
+<div class="l-wrapper">
+  <article class="book">
+
+    <div class="book__cover">
+      {% bookCover isbn, title, coverUrl %}
+    </div>
+
+    <div class="book__header">
+      <h1 class="book__title">{{ title }}</h1>
+      {% if author %}<p class="book__author">{{ author }}</p>{% endif %}
+      <time class="book__date" datetime="{{ date | htmlDateString }}">
+        {{ date | date("MMMM d, yyyy") }}
+      </time>
+      {% set bookTags = tags | reject("equals", "books") | list %}
+      {% if bookTags.length %}
+        <ul class="book__tags">
+          {% for tag in bookTags %}
+            <li><a href="/tag/{{ tag | slug }}/" class="tag">{{ tag | capitalize }}</a></li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </div>
+
+    <div class="book__body prose">
+      {{ content | safe }}
+    </div>
+
+  </article>
+</div>

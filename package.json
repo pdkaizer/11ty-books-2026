@@ -1,0 +1,21 @@
+{
+  "name": "books-eleventy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy",
+    "migrate": "node migrate.mjs",
+    "migrate:dry": "node migrate.mjs --dry-run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.5",
+    "@11ty/eleventy-img": "^6.0.4",
+    "turndown": "^7.2.4"
+  }
+}
