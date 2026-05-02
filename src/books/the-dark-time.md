@@ -1,7 +1,8 @@
 ---
 title: "The Dark Time"
 author: "Nick Petrie"
-isbn: "" # TODO: add ISBN
+isbn: "9780593540589"
+coverUrl: "https://m.media-amazon.com/images/I/81cptKNXi-L._SY522_.jpg"
 date: 2026-05-02
 slug: the-dark-time
 tags:
