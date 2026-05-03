@@ -12,7 +12,7 @@ categories:
   - non-fiction
 excerpt: |
   Life, on the Line: A Chef’s Story of Chasing Greatness, Facing Death, and Redefining the Way We Eat Grant Achatz “One of America’s great chefs” (Vogue) shares how his drive to cook immaculate food won him international renown-and fueled his miraculous triumph over tongue cancer.In 2007, chef Grant Achatz seemingly had it made. He had …
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2012/03/tumblr_m13xbcnssq1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
+coverUrl: "https://m.media-amazon.com/images/I/81QQYDZ2tEL._SL1500_.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 “One of America’s great chefs” (Vogue) shares how his drive to cook immaculate food won him international renown-and fueled his miraculous triumph over tongue cancer.In 2007, chef Grant Achatz seemingly had it made. He had been named one of the best new chefs in America by Food & Wine in 2002, received the James Beard Foundation Rising Star Chef of the Year Award in 2003, and in 2005 he and Nick Kokonas opened the conceptually radical restaurant Alinea, which was named Best Restaurant in America by Gourmet magazine. Then, positioned firmly in the world’s culinary spotlight, Achatz was diagnosed with stage IV squamous cell carcinoma-tongue cancer.

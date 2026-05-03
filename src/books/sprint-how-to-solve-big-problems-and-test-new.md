@@ -12,7 +12,7 @@ categories:
   - books
 excerpt: |
   From three partners at Google Ventures, a unique five-day process for solving tough problems, proven at more than a hundred companies.
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2017/10/tumblr_ox7xcaizo01rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
+coverUrl: "https://m.media-amazon.com/images/I/71y2wZgkJ6L._SL1500_.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 

@@ -9,6 +9,7 @@ categories:
   - non-fiction
 excerpt: |
   Sous Chef: 24 Hours on the Line Michael Gibney The back must slave to feed the belly… . *In this urgent and unique book, chef Michael Gibney uses twenty-four hours to animate the intricate camaraderie and culinary choreography in an upscale New York restaurant kitchen. Here readers will find all the details, in rapid-fire succession, …
+coverUrl: https://m.media-amazon.com/images/I/81FI4Enlp6L._SL1500_.jpg
 ---
 
 _The back must slave to feed the belly… . *In this urgent and unique book, chef Michael Gibney uses twenty-four hours to animate the intricate camaraderie and culinary choreography in an upscale New York restaurant kitchen. Here readers will find all the details, in rapid-fire succession, of what it takes to deliver an exceptional plate of food—the journey to excellence by way of exhaustion._
