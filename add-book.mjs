@@ -23,9 +23,9 @@ if (!title) {
   process.exit(1);
 }
 
-// ── Open Library ISBN lookup ──────────────────────────────────────────────────
+// ── Open Library lookup ───────────────────────────────────────────────────────
 
-async function lookupIsbn(title, author) {
+async function lookupBook(title, author) {
   const queries = [
     { title, author },
     { title },
@@ -35,7 +35,7 @@ async function lookupIsbn(title, author) {
     const qs = new URLSearchParams({
       ...(params.title  ? { title:  params.title  } : {}),
       ...(params.author ? { author: params.author } : {}),
-      fields: "isbn,author_name,title",
+      fields: "key,isbn,author_name,title",
       limit: "1",
     });
 
@@ -53,10 +53,12 @@ async function lookupIsbn(title, author) {
         null;
 
       if (isbn) {
+        const summary = await fetchSummary(doc.key);
         return {
           isbn,
           resolvedAuthor: doc.author_name?.[0] ?? null,
           matchedTitle: doc.title ?? null,
+          summary,
         };
       }
     } catch {
@@ -66,7 +68,26 @@ async function lookupIsbn(title, author) {
     await sleep(200);
   }
 
-  return { isbn: null, resolvedAuthor: null, matchedTitle: null };
+  return { isbn: null, resolvedAuthor: null, matchedTitle: null, summary: null };
+}
+
+async function fetchSummary(workKey) {
+  if (!workKey) return null;
+  try {
+    const res = await fetch(`https://openlibrary.org${workKey}.json`);
+    if (!res.ok) return null;
+    const data = await res.json();
+    const desc = data.description;
+    const text = typeof desc === "string" ? desc : (desc?.value ?? null);
+    if (!text) return null;
+    // First paragraph only, collapse whitespace, strip markdown links
+    return text.split(/\n\n/)[0]
+      .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
+      .replace(/\s+/g, " ")
+      .trim();
+  } catch {
+    return null;
+  }
 }
 
 // ── Slug ─────────────────────────────────────────────────────────────────────
@@ -87,8 +108,8 @@ async function main() {
   console.log(`\nAdding: ${title}${author ? ` by ${author}` : ""}`)
   if (extraTags.length) console.log(`Tags:   ${tags.join(", ")}`);
 
-  console.log("Looking up ISBN via Open Library…");
-  const { isbn, resolvedAuthor, matchedTitle } = await lookupIsbn(title, author ?? "");
+  console.log("Looking up book via Open Library…");
+  const { isbn, resolvedAuthor, matchedTitle, summary } = await lookupBook(title, author ?? "");
   const finalAuthor = author ?? resolvedAuthor ?? "";
 
   if (isbn) {
@@ -97,6 +118,11 @@ async function main() {
     if (!titleMatch) console.log(`⚠️  Matched: "${matchedTitle}" — verify this is correct`);
   } else {
     console.log("⚠️  ISBN not found — you can add it manually");
+  }
+  if (summary) {
+    console.log(`✅ Summary found (${summary.length} chars)`);
+  } else {
+    console.log("⚠️  No summary found — you can add one manually");
   }
 
   const today = new Date().toISOString().split("T")[0];
@@ -113,6 +139,7 @@ async function main() {
     `title: "${title.replace(/"/g, '\\"')}"`,
     `author: "${finalAuthor.replace(/"/g, '\\"')}"`,
     isbn ? `isbn: "${isbn}"` : `isbn: "" # TODO: add ISBN`,
+    summary ? `description: "${summary.replace(/"/g, '\\"')}"` : `description: "" # TODO: add description`,
     `date: ${today}`,
     `slug: ${slug}`,
     "tags:",
@@ -125,7 +152,11 @@ async function main() {
   await fs.writeFile(filepath, frontmatter, "utf8");
 
   console.log(`\n📄 Created: ${filepath}`);
-  console.log("   Open the file and add your review below the frontmatter.\n");
+  if (summary) {
+    console.log("   Summary pre-filled. Add your review below it.\n");
+  } else {
+    console.log("   Open the file and add your review below the frontmatter.\n");
+  }
 }
 
 function sleep(ms) {

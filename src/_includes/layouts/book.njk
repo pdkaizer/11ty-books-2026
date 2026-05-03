@@ -26,6 +26,7 @@ layout: layouts/base.njk
     </div>
 
     <div class="book__body prose">
+      {% if description %}<p class="book__description">{{ description }}</p>{% endif %}
       {{ content | safe }}
     </div>
 
