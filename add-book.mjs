@@ -84,6 +84,8 @@ async function fetchSummary(workKey) {
     return text.split(/\n\n/)[0]
       .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
       .replace(/\s+/g, " ")
+      .replace(/"--"?\s*$/, "")  // strip trailing publisher attribution
+      .replace(/"/g, '\\"')      // escape remaining quotes for YAML
       .trim();
   } catch {
     return null;
