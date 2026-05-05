@@ -49,16 +49,14 @@ export default function (eleventyConfig) {
   eleventyConfig.addAsyncShortcode("bookCover", async (isbn, title, coverUrl) => {
     let src = null;
 
-    if (isbn) {
+    if (coverUrl) {
+      src = coverUrl;
+    } else if (isbn) {
       try {
         src = await resolveCoverUrl(isbn);
       } catch {
-        // fall through to coverUrl fallback
+        // fall through to missing cover
       }
-    }
-
-    if (!src && coverUrl) {
-      src = coverUrl;
     }
 
     if (!src) {
