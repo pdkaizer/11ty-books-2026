@@ -7,6 +7,7 @@ slug: finding-freedom
 tags:
   - food
   - non-fiction
+  - memoir
 categories:
   - books
 excerpt: |

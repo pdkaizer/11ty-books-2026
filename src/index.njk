@@ -1,29 +1,24 @@
 ---
 layout: layouts/base.njk
-pagination:
-  data: collections.books
-  size: 12
-  alias: books
-permalink: "{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber + 1 }}/{% else %}/{% endif %}"
 ---
 
 <div class="book-archive l-wrapper">
 
-  {% if pagination.pageNumber === 0 %}
-    <div class="book-archive__header">
-      <p class="book-archive__eyebrow">Peter Kaizer</p>
-      <h1 class="book-archive__heading">Recommended Books</h1>
-    </div>
-  {% else %}
-    <div class="book-archive__header">
-      <p class="book-archive__eyebrow">Peter Kaizer — Recommended Books</p>
-      <h1 class="book-archive__heading">Page {{ pagination.pageNumber + 1 }}</h1>
-    </div>
-  {% endif %}
+  <div class="book-archive__header">
+    <h1 class="book-archive__heading" id="archive-heading">All Books</h1>
+  </div>
 
-  <ul class="book-grid" aria-label="Book list">
-    {% for book in books %}
-      <li>
+  <div class="tag-filter" role="group" aria-label="Filter by genre">
+    <button class="tag-filter__btn is-active" data-tag="all">All</button>
+    {% for tag in collections.books | allUniqueTags %}
+      <button class="tag-filter__btn" data-tag="{{ tag }}">{{ tag | capitalize }}</button>
+    {% endfor %}
+  </div>
+
+  <ul class="book-grid" aria-label="Book list" id="book-grid">
+    {% for book in collections.books %}
+      {% set bookTags = book.data.tags | list | reject("equals", "books") %}
+      <li data-tags="{{ bookTags | join(',') }}">
         <a href="{{ book.url }}" class="book-card">
           <div class="book-card__cover">
             {% bookCover book.data.isbn, book.data.title, book.data.coverUrl %}
@@ -39,30 +34,32 @@ permalink: "{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber + 1
     {% endfor %}
   </ul>
 
-  {% if pagination.pages.length > 1 %}
-    <nav class="pagination" aria-label="Page navigation">
-      <ul class="pagination__list">
-        {% if pagination.href.previous %}
-          <li>
-            <a href="{{ pagination.href.previous }}" class="pagination__link pagination__link--prev">← Prev</a>
-          </li>
-        {% endif %}
-        {% for pageEntry in pagination.pages %}
-          <li>
-            <a
-              href="{{ pagination.hrefs[loop.index0] }}"
-              class="pagination__link{% if loop.index0 === pagination.pageNumber %} pagination__link--current{% endif %}"
-              {% if loop.index0 === pagination.pageNumber %}aria-current="page"{% endif %}
-            >{{ loop.index }}</a>
-          </li>
-        {% endfor %}
-        {% if pagination.href.next %}
-          <li>
-            <a href="{{ pagination.href.next }}" class="pagination__link pagination__link--next">Next →</a>
-          </li>
-        {% endif %}
-      </ul>
-    </nav>
-  {% endif %}
-
 </div>
+
+<script>
+  (function () {
+    var filterBtns = document.querySelectorAll('.tag-filter__btn');
+    var bookItems  = document.querySelectorAll('#book-grid li[data-tags]');
+    var heading    = document.getElementById('archive-heading');
+
+    filterBtns.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var tag = btn.dataset.tag;
+
+        filterBtns.forEach(function (b) { b.classList.remove('is-active'); });
+        btn.classList.add('is-active');
+
+        heading.textContent = tag === 'all' ? 'All Books' : btn.textContent;
+
+        bookItems.forEach(function (item) {
+          if (tag === 'all') {
+            item.hidden = false;
+          } else {
+            var tags = item.dataset.tags ? item.dataset.tags.split(',') : [];
+            item.hidden = tags.indexOf(tag) === -1;
+          }
+        });
+      });
+    });
+  })();
+</script>

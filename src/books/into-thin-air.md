@@ -8,6 +8,7 @@ tags:
   - moutaineering
   - non-fiction
   - thriller
+  - sports
 categories:
   - books
 excerpt: |

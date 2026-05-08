@@ -7,6 +7,8 @@ slug: ultimate-high-my-everest-odyssey-goran-kropp
 tags:
   - moutaineering
   - non-fiction
+  - sports
+  - memoir
 categories:
   - books
 excerpt: |

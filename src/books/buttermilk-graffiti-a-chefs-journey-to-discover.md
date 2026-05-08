@@ -7,6 +7,7 @@ slug: buttermilk-graffiti-a-chefs-journey-to-discover
 tags:
   - food
   - non-fiction
+  - memoir
 categories:
   - books
 excerpt: |

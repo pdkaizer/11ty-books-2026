@@ -5,10 +5,10 @@ isbn: "9781455542260"
 date: 2017-07-19
 slug: coach-wooden-and-me-our-50-year-friendship-on-and
 tags:
-  - basketball
   - biography
   - non-fiction
   - sports
+  - memoir
 categories:
   - books
 excerpt: |

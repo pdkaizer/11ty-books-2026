@@ -7,6 +7,7 @@ slug: daemon-daniel-suarez-already-an-underground
 categories:
   - books
   - fiction
+  - science-fiction
 excerpt: |
   Daemon Daniel Suarez Already an underground sensation, a high-tech thriller for the wireless age that explores the unthinkable consequences of a computer program running without human control—a daemon—designed to dismantle society and bring about a new world order Technology controls almost everything in our modern-day world, from remote entry on our cars to access to …
 ---

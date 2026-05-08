@@ -8,6 +8,7 @@ tags:
   - biography
   - non-fiction
   - technology
+  - memoir
 categories:
   - books
 excerpt: |

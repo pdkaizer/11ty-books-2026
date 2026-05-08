@@ -7,6 +7,8 @@ slug: uncanny-valley-a-memoir
 tags:
   - non-fiction
   - technology
+  - memoir
+  - business
 categories:
   - books
 excerpt: "The prescient, page-turning account of a journey in Silicon Valley: a defining memoir of our digital age"

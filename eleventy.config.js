@@ -97,6 +97,17 @@ export default function (eleventyConfig) {
 
   // ── Filters ───────────────────────────────────────────────────────────────
 
+  eleventyConfig.addFilter("allUniqueTags", (books) => {
+    const excluded = new Set(["books", "all", "post", "posts"]);
+    const tagSet = new Set();
+    (books || []).forEach((book) => {
+      (book.data?.tags || []).forEach((tag) => {
+        if (!excluded.has(tag)) tagSet.add(tag);
+      });
+    });
+    return [...tagSet].sort();
+  });
+
   eleventyConfig.addFilter("capitalize", (str) =>
     str ? str.charAt(0).toUpperCase() + str.slice(1) : str
   );

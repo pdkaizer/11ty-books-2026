@@ -6,7 +6,6 @@ description: "In Democracy Awakening , Richardson crafts a compelling and origin
 date: 2023-11-07
 slug: democracy-awakening
 tags:
-  - books
   - non-fiction
   - history
 ---

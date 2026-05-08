@@ -8,6 +8,7 @@ tags:
   - drink
   - food
   - non-fiction
+  - memoir
 categories:
   - books
 excerpt: |

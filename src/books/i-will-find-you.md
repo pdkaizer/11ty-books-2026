@@ -8,6 +8,6 @@ slug: i-will-find-you
 tags:
   - books
   - fiction
-  - sci-fi
+  - thriller
 ---
 

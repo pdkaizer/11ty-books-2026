@@ -7,6 +7,7 @@ slug: freedom-daniel-suarez-the-propulsive
 categories:
   - books
   - fiction
+  - science-fiction
 excerpt: |
   Freedom ™ Daniel Suarez The propulsive, shockingly plausible sequel to New York Times bestseller DaemonIn one of the most buzzed-about debuts of 2009, Daniel Suarez introduced a terrifying vision of a new world order, controlled by the Daemon, an insidious computer program unleashed by a hi-tech wunderkind, Daemon captured the attention of the tech community, …
 ---

@@ -7,6 +7,7 @@ slug: home
 categories:
   - books
   - fiction
+  - thriller
 excerpt: |
   Harlan Coben A decade ago, kidnappers grabbed two boys from wealthy families and demanded ransom, then went silent. No trace of the boys ever surfaced. For ten years their families have been left with nothing but painful memories and a quiet desperation for the day that has finally, miraculously arrived: Myron Bolitar and his friend …
 coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2025/09/IMG_0464-571x1024.jpeg" # original WP image — replaced by Open Library at build time if isbn is set

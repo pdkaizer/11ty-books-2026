@@ -7,6 +7,7 @@ slug: change-agent-a-novel-daniel-suarez-new-york
 tags:
   - fiction
   - science-fiction
+  - thriller
 categories:
   - books
 excerpt: |

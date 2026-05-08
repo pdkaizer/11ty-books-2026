@@ -8,6 +8,7 @@ tags:
   - biography
   - food
   - non-fiction
+  - memoir
 categories:
   - books
 excerpt: |

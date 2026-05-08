@@ -7,6 +7,8 @@ slug: insanely-simple-the-obsession-that-drives-apples
 categories:
   - books
   - non-fiction
+  - apple
+  - business
 excerpt: |
   Insanely Simple: The Obsession That Drives Apple’s Success Ken Segall To Steve Jobs, Simplicity was a religion. It was also a weapon.Simplicity isn’t just a design principle at Apple—it’s a value that permeates every level of the organization. The obsession with Simplicity is what separates Apple from other technology companies. It’s what helped Apple recover …
 coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2012/06/tumblr_m52phhmtms1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set

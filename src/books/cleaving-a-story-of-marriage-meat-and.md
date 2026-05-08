@@ -7,9 +7,10 @@ slug: cleaving-a-story-of-marriage-meat-and
 tags:
   - food
   - non-fiction
+  - food
+  - memoir
 categories:
   - books
-  - non-fiction
 excerpt: |
   Cleaving: A Story of Marriage, Meat, and Obsession Julie Powell Julie Powell thought cooking her way through Julia Child’s Mastering the Art of French Cooking was the craziest thing she’d ever do–until she embarked on the voyage recounted in her new memoir, CLEAVING. Her marriage challenged by an insane, irresistible love affair, Julie decides to …
 coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2012/03/tumblr_m13b5vyxfr1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set

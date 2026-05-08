@@ -7,6 +7,7 @@ slug: faith-trusting-your-own-deepest-experience
 tags:
   - non-fiction
   - spirituality
+  - memoir
 categories:
   - books
 excerpt: |

@@ -7,6 +7,7 @@ slug: in-the-woods-tana-french-as-dusk-approaches-a
 categories:
   - books
   - fiction
+  - thriller
 excerpt: |
   In the Woods Tana French As dusk approaches a small Dublin suburb in the summer of 1984, mothers begin to call their children home. But on this warm evening, three children do not return from the dark and silent woods. When the police arrive, they find only one of the children gripping a tree trunk …
 coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2013/12/tumblr_mxuno1endq1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set

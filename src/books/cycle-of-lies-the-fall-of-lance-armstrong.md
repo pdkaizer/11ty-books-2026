@@ -7,6 +7,7 @@ slug: cycle-of-lies-the-fall-of-lance-armstrong
 tags:
   - cycling
   - non-fiction
+  - sports
 categories:
   - books
 excerpt: |

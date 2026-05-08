@@ -7,6 +7,7 @@ slug: truffle-boy-my-unexpected-journey-through-the
 tags:
   - food
   - non-fiction
+  - memoir
 categories:
   - books
 excerpt: |

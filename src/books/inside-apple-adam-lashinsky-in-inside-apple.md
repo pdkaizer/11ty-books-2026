@@ -4,9 +4,11 @@ author: "Adam Lashinsky"
 isbn: "9781848547445"
 date: 2012-11-22
 slug: inside-apple-adam-lashinsky-in-inside-apple
-categories:
+tags:
   - books
   - non-fiction
+  - apple
+  - business
 excerpt: |
   Inside Apple Adam Lashinsky In INSIDE APPLE, Adam Lashinsky provides readers with an insight on leadership and innovation. He introduces Apple business concepts like the ‘DRI’ (Apple’s practice of assigning a Directly Responsible Individual to every task) and the Top 100 (an annual event where that year’s top 100 up-and-coming executives were surreptitiously transported to …
 coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2012/11/tumblr_mdvgvnaysm1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set

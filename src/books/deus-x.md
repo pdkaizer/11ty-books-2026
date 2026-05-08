@@ -7,7 +7,6 @@ Father Michael Grabowski, a Franciscan priest who has tended the spiritual needs
 date: 2023-12-27
 slug: deus-x
 tags:
-  - books
   - fiction
   - thriller
 ---

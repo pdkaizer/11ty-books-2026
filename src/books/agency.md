@@ -6,6 +6,7 @@ date: 2021-08-10
 slug: agency
 tags:
   - fiction
+  - science-fiction
 categories:
   - books
 excerpt: |

@@ -6,7 +6,9 @@ date: 2016-09-18
 slug: the-big-thing-how-to-complete-your-creative
 tags:
   - non-fiction
-  - productivity
+  - creativity
+  - business
+  - memoir
 categories:
   - books
 excerpt: |

@@ -7,6 +7,7 @@ slug: the-soul-of-a-chef-the-journey-toward
 tags:
   - food
   - non-fiction
+  - memoir
 categories:
   - books
   - non-fiction

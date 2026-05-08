@@ -7,6 +7,8 @@ slug: dark-summit-the-true-story-of-everests-most
 tags:
   - moutaineering
   - non-fiction
+  - sports
+  - memoir
 categories:
   - books
 excerpt: |
