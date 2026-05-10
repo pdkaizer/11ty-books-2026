@@ -5,7 +5,6 @@ isbn: "9780525429784"
 date: 2017-12-20
 slug: whiskey-distilled-a-populist-guide-to-the-water
 tags:
-  - drink
   - food
   - non-fiction
   - memoir

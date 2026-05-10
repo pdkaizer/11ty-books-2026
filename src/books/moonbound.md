@@ -9,6 +9,6 @@ coverUrl: "https://m.media-amazon.com/images/I/91UHVYSTozL._SL1500_.jpg"
 tags:
   - books
   - fiction
-  - sci-fi
+  - science-fiction
 ---
 

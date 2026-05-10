@@ -1,0 +1,14 @@
+---
+title: "Down and Out in Paradise: The Life of Anthony Bourdain"
+author: "Charles Leerhsen"
+isbn: "9781982140458"
+description: "" # TODO: add description
+date: 2022-11-29
+slug: down-and-out-in-paradise-the-life-of-anthony-bourdain
+tags:
+  - books
+  - non-fiction
+  - food
+  - memoir
+---
+
