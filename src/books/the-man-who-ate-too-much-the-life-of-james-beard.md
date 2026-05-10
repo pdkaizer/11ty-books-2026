@@ -1,7 +1,7 @@
 ---
 title: "The Man Who Ate Too Much: The Life of James Beard"
 author: "John Birdsall"
-isbn: "" # TODO: add ISBN manually
+isbn: "9780393635713"
 date: 2021-08-01
 slug: the-man-who-ate-too-much-the-life-of-james-beard
 tags:

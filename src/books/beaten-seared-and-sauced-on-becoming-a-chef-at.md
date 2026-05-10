@@ -12,7 +12,6 @@ categories:
   - books
 excerpt: |
   On the eve of his thirty-eighth birthday and after shuffling through a series of unsatisfying jobs, Jonathan Dixon enrolled in the CIA (on a scholarship) to pursue his passion for cooking.
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2012/03/tumblr_m13b0zmeqp1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 

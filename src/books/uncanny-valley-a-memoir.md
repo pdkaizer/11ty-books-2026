@@ -1,7 +1,7 @@
 ---
 title: "Uncanny Valley: A Memoir"
 author: "Anna Wiener"
-isbn: "" # TODO: add ISBN manually
+isbn: "9781250785695"
 date: 2021-08-01
 slug: uncanny-valley-a-memoir
 tags:

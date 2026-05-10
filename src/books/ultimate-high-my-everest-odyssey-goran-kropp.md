@@ -13,7 +13,6 @@ categories:
   - books
 excerpt: |
   Readers of Jon Krakauer&#8217;s bestselling Into Thin Air will recall Göran Kropp, the remarkable Swedish solo climber who loves to do what others label impossible. His goal was to reach and climb Mount Everest using his own physical means and without any outside assistance. In
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2016/01/tumblr_o1obwu89yz1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 

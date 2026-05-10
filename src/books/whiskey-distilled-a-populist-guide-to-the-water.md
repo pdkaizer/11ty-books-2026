@@ -4,6 +4,7 @@ author: "Heather Greene"
 isbn: "9780525429784"
 date: 2017-12-20
 slug: whiskey-distilled-a-populist-guide-to-the-water
+coverUrl: "https://m.media-amazon.com/images/I/81Y2ePNvXgL._SL1500_.jpg"
 tags:
   - food
   - non-fiction
@@ -12,7 +13,6 @@ categories:
   - books
 excerpt: |
   In the populist tradition of Andrea Immer, New York City’s first female whiskey sommelier translates today’s hottest spirit for a new generation of imbibers
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2017/12/tumblr_p19gqarjlj1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 

@@ -12,7 +12,6 @@ categories:
   - books
 excerpt: |
   New York Times bestselling author Daniel Suarez delivers an exhilarating sci-fi thriller exploring a potential future where CRISPR genetic editing allows the human species to control evolution itself.
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2017/08/tumblr_ov90tfpv5p1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 

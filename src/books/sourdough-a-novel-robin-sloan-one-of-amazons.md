@@ -10,7 +10,6 @@ tags:
 categories:
   - books
 excerpt: "Lois Clary is a software engineer at General Dexterity, a San Francisco robotics company with world-changing ambitions."
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2017/12/tumblr_p1q8t7zpry1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 

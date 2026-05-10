@@ -13,7 +13,6 @@ categories:
   - books
 excerpt: |
   For twenty-five years Dan Lyons was a magazine writer at the top of his profession&ndash; until one Friday morning when he received a phone call: Poof.
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2016/06/tumblr_o8pkg8c8hu1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 

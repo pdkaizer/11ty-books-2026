@@ -4,6 +4,7 @@ author: "Nick Heil"
 isbn: "9780753515945"
 date: 2012-03-18
 slug: dark-summit-the-true-story-of-everests-most
+coverUrl: "https://m.media-amazon.com/images/I/519uJZijzzL.jpg"
 tags:
   - moutaineering
   - non-fiction
@@ -13,7 +14,6 @@ categories:
   - books
 excerpt: |
   Written by an experienced climber and outdoor writer, &lt;I&gt;Dark Summit&lt;/I&gt; is both a riveting account of a notorious climbing season and a troubling investigation into whether the pursuit of the ultimate mountaineering prize has spiraled out of control.
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2012/03/tumblr_m13ayuwfio1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 

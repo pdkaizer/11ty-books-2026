@@ -7,11 +7,11 @@ slug: august-snow-stephen-mack-jones-from-the
 tags:
   - fiction
   - thriller
+coverUrl: "https://m.media-amazon.com/images/I/915eKgKuXkL._SL1500_.jpg"
 categories:
   - books
 excerpt: |
   From the wealthy suburbs to the remains of Detroit’s bankrupt factory districts, August Snow is a fast-paced tale of murder, greed, sex, economic cyber-terrorism, race, and urban decay.
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2017/09/tumblr_ovtmg6lqql1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 

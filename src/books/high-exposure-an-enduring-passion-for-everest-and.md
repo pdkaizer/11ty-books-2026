@@ -15,7 +15,6 @@ categories:
 
 excerpt: |
   High Exposure: An Enduring Passion for Everest and Unforgiving Places David Breashears For generations of resolute adventurers, from George Mallory to Sir Edmund Hillary to Jon Krakauer, Mount Everest and the world’s other greatest peaks have provided the ultimate testing ground. But the question remains: Why climb? In High Exposure, elite mountaineer and acclaimed Everest …
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2012/03/tumblr_m13x6diqvj1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 For generations of resolute adventurers, from George Mallory to Sir Edmund Hillary to Jon Krakauer, Mount Everest and the world’s other greatest peaks have provided the ultimate testing ground. But the question remains: Why climb? In _High Exposure,_ elite mountaineer and acclaimed _Everest_ filmmaker David Breashears answers with an intimate and captivating look at his life.

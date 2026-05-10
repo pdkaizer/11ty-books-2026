@@ -12,7 +12,6 @@ categories:
   - fiction
 excerpt: |
   The Fifth Witness Michael Connelly Mickey Haller has fallen on tough times. He expands his business into foreclosure defense, only to see one of his clients accused of killing the banker she blames for trying to take away her home. Mickey puts his team into high gear to exonerate Lisa Trammel, even though the evidence …
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2012/03/tumblr_m13xaa0mq91rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 Mickey Haller has fallen on tough times. He expands his business into foreclosure defense, only to see one of his clients accused of killing the banker she blames for trying to take away her home.

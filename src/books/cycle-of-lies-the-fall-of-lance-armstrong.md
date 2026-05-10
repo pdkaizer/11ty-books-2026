@@ -12,7 +12,6 @@ categories:
   - books
 excerpt: |
   In June 2013, when Lance Armstrong fled his palatial home in Texas, downsizing in the face of multimillion-dollar lawsuits, Juliet Macur was there—talking to his girlfriend and children and listening to Armstrong&rsquo;s version of the truth.
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2016/06/tumblr_o8pkumqvlr1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 

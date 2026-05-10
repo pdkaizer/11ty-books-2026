@@ -1,7 +1,7 @@
 ---
 title: "The Sharper you Knives the Less You Cry"
 author: "Kathleen Flinn"
-isbn: "" # TODO: add ISBN manually
+isbn: "9780143114130"
 date: 2012-03-18
 slug: the-sharper-your-knife-the-less-you-cry-love
 tags:

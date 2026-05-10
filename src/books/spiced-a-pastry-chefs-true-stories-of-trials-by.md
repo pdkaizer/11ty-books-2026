@@ -12,7 +12,6 @@ categories:
   - books
 excerpt: |
   Following Dalia&rsquo;s personal trajectory from nervous newbie to unflappable professional, Spiced is a clever, surprisingly frank, and affectionate glimpse at the sweet and sour of following your passion.
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2012/03/tumblr_m13b2v3mre1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 In the tradition of _Kitchen Confidential_, a revealing and entertaining insider&rsquo;s tour through top restaurant kitchens, told from the unique perspective of a critically acclaimed pastry chef.

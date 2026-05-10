@@ -200,6 +200,11 @@
     letter-spacing: -0.02em;
   }
 
+  .site-logo__img {
+    height: 1.5em;
+    width: auto;
+  }
+
   .site-header__controls {
     display: flex;
     align-items: center;

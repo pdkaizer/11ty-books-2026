@@ -11,7 +11,6 @@ categories:
   - books
 excerpt: |
   As the oldest of seven children who were dragged from military base to military base across the South, Pat bore witness to the often cruel and violent behavior of his father, Marine Corps fighter pilot Donald Patrick Conroy.
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2015/01/tumblr_ni85exl4bk1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 

@@ -13,7 +13,6 @@ categories:
   - books
 excerpt: |
   Becoming Steve Jobs shows us how one of the most colorful and compelling figures of our times was able to combine his unchanging, relentless passion with a more mature management style to create one of the most valuable and beloved companies on the planet.
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2015/04/tumblr_nmlqvxbecg1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 

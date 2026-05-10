@@ -11,7 +11,6 @@ categories:
   - fiction
 excerpt: |
   South of Broad Pat Conroy The publishing event of the season: The one and only Pat Conroy returns, with a big, sprawling novel that is at once a love letter to Charleston and to lifelong friendship. Against the sumptuous backdrop of Charleston, South Carolina, South of Broad gathers a unique cast of sinners and saints. …
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2012/03/tumblr_m13bbv5zz41rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 **The publishing event of the season: The one and only Pat Conroy returns, with a big, sprawling novel that is at once a love letter to Charleston and to lifelong friendship.**

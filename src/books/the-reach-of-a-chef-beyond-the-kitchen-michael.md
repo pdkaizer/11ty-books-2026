@@ -12,7 +12,6 @@ categories:
   - non-fiction
 excerpt: |
   The Reach of a Chef: Beyond the Kitchen Michael Ruhlman The acclaimed author of The Soul of a Chef explores the allure of the celebrity chef in modern America Michael Ruhlman has enjoyed a long love affair with cooking and food. His explorations of kitchens and the professionals who call them home led Anthony Bourdain …
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2012/03/tumblr_m13l8l7njg1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 The acclaimed author of _The Soul of a Chef_ explores the allure of the celebrity chef in modern America

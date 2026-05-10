@@ -12,7 +12,6 @@ categories:
   - books
 excerpt: |
   Driven by demons, Jobs could drive those around him to fury and despair. But his personality and products were interrelated, just as Apple’s hardware and software tended to be as if part of an integrated system
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2012/03/tumblr_m133q9tzj51rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 

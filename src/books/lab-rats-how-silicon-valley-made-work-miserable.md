@@ -4,6 +4,7 @@ author: "Dan Lyons"
 isbn: "9780316561853"
 date: 2019-01-22
 slug: lab-rats-how-silicon-valley-made-work-miserable
+coverUrl: "https://m.media-amazon.com/images/I/81cQ7YuJjvL._SL1500_.jpg"
 tags:
   - non-fiction
   - technology
@@ -11,7 +12,6 @@ categories:
   - books
 excerpt: |
   New York Times bestselling author Dan Lyons exposes how the “new oligarchs” of Silicon Valley have turned technology into a tool for oppressing workers&#8230;
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2019/01/tumblr_plqhmmubtg1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 

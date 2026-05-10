@@ -4,6 +4,7 @@ author: "Daniel Suarez"
 isbn: "9788489367982"
 date: 2014-08-13
 slug: freedom-daniel-suarez-the-propulsive
+coverUrl: "https://m.media-amazon.com/images/I/81N7KQ2D9ML._SL1500_.jpg"
 categories:
   - books
   - fiction

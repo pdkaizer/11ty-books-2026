@@ -1,7 +1,7 @@
 ---
 title: "A Glimpse of Nothingness"
 author: "Janwillem van de Wetering"
-isbn: "" # TODO: add ISBN manually
+isbn: "9780312209452"
 date: 2015-03-18
 slug: a-glimpse-of-nothingness-experiences-in-an
 tags:

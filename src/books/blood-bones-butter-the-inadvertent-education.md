@@ -1,7 +1,7 @@
 ---
 title: "Blood, Bones &#038; Butter"
 author: "Gabrielle Hamilton"
-isbn: "" # TODO: add ISBN manually
+isbn: "9780812980882"
 date: 2012-03-18
 slug: blood-bones-butter-the-inadvertent-education
 tags:

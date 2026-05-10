@@ -8,11 +8,11 @@ tags:
   - food
   - non-fiction
   - memoir
+coverUrl: "https://m.media-amazon.com/images/I/91GE5c1vIkL._SL1500_.jpg"
 categories:
   - books
 excerpt: |
   American food is the story of mash-ups. Immigrants arrive, cultures collide, and out of the push-pull come exciting new dishes and flavors. But for Edward Lee, who, like Anthony Bourdain or Gabrielle Hamilton, is as much a writer as he is a chef, that first surprising bite is just the beginning. What about the people behind the food?
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2018/04/tumblr_p7pcjeo4rd1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 

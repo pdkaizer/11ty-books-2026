@@ -13,7 +13,6 @@ categories:
   - books
 excerpt: |
   Kareem Abdul-Jabbar explores his 50-year friendship with Coach John Wooden, one of the most enduring and meaningful relationships in sports history.
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2017/07/tumblr_otd1n1kyjq1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 

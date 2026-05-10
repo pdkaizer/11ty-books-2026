@@ -4,6 +4,7 @@ author: "Christopher White"
 isbn: "9781250080851"
 date: 2018-10-25
 slug: the-last-lobster-boom-or-bust-for-maines
+coverUrl: "https://m.media-amazon.com/images/I/81qpdEiMbgL._SL1500_.jpg"
 tags:
   - food
   - non-fiction
@@ -11,7 +12,6 @@ categories:
   - books
 excerpt: |
   Maine lobstermen have happened upon a bonanza along their rugged, picturesque coast. For the past five years, the lobster population along the coast of Maine has boomed&#8230;
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2018/10/tumblr_ph64gpmhk71rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 

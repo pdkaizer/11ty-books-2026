@@ -9,11 +9,11 @@ tags:
   - creativity
   - business
   - memoir
+coverUrl: "https://m.media-amazon.com/images/I/714wwPSEC9L._SL1500_.jpg"
 categories:
   - books
 excerpt: |
   A New York Times business journalist explains why it’s important for people to pursue big creative projects, and identifies both the obstacles and the productive habits that emerge on the path to completion—including her own experience writing this book.
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2016/09/tumblr_odp9fnz1191rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 

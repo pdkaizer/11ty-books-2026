@@ -13,7 +13,6 @@ categories:
   - books
 excerpt: |
   In a fast-paced, candid narrative, Buford describes the frenetic experience of working in Babbo’s kitchen: the trials and errors (and more errors), humiliations and hopes, disappointments and triumphs as he worked his way up the ladder from slave to cook.
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2016/06/tumblr_o8pkzcemhb1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 

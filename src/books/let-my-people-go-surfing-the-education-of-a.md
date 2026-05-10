@@ -11,7 +11,6 @@ categories:
   - books
 excerpt: |
   The long-awaited memoir/manifesto from the legendary climber, businessman, and environmentalist Yvon Chouinard, founder, and owner of one of the world&rsquo;s most inspiring companies, Patagonia, Inc.
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2017/03/tumblr_omvo7yfsy11rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 

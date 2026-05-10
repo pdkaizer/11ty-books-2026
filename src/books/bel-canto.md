@@ -10,7 +10,6 @@ categories:
   - books
 excerpt: |
   Ann Pratchett’s award winning, New York Times *bestselling *Bel Canto *balances themes of love and crisis as disparate characters learn that music is their only common language.
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2015/01/tumblr_ni85hprxou1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 

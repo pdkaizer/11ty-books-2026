@@ -8,11 +8,11 @@ tags:
   - creativity
   - memoir
   - non-fiction
+coverUrl: "https://m.media-amazon.com/images/I/71BdP-b07ZL._SL1500_.jpg"
 categories:
   - books
 excerpt: |
   Creativity, Inc. is a book for managers who want to lead their employees to new heights, a manual for anyone who strives for originality, and the first-ever, all-access trip into the nerve center of Pixar Animation—into the meetings, postmortems, and “Braintrust” sessions where some of the most successful films in history are made.
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2015/04/tumblr_nmwi5awycy1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 

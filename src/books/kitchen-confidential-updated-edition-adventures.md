@@ -1,7 +1,7 @@
 ---
 title: "Kitchen Confidencial"
 author: "Anthony Bourdain"
-isbn: "" # TODO: add ISBN manually
+isbn: "9780060899226"
 date: 2012-03-18
 slug: kitchen-confidential-updated-edition-adventures
 tags:

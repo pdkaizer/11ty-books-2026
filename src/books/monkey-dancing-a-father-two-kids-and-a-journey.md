@@ -12,7 +12,6 @@ categories:
   - books
 excerpt: |
   After losing his brother to cancer and painful divorce that left him the sole charge d&#8217;affaires of two decidedly spirited children, environmental reporter Daniel Glick knew he and his little family desperately needed some karmic rejuvenation.
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2016/01/tumblr_o1oc092u9q1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 

@@ -11,7 +11,6 @@ categories:
   - books
 excerpt: |
   Detective Harry Bosch must track down someone who may never have existed in the new thriller from #1 New York Times bestselling author Michael Connelly.
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2017/05/tumblr_oq4b3gr6uy1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 

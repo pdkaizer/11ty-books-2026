@@ -10,9 +10,9 @@ tags:
   - memoir
 categories:
   - books
+coverUrl: "https://m.media-amazon.com/images/I/710PTYF0B2L._SL1500_.jpg"
 excerpt: |
   From Erin French, owner of the critically acclaimed The Lost Kitchen, a TIME world dining destination, a life-affirming memoir about survival, renewal, and finding a community to lift her up
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2021/08/finding-freedom-674x1024.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 

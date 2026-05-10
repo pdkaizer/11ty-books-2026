@@ -12,7 +12,6 @@ categories:
   - non-fiction
 excerpt: |
   Medium Raw: A Bloody Valentine to the World of Food and the People Who Cook Anthony Bourdain The long-awaited follow-up to the megabestseller Kitchen Confidential In the ten years since his classic Kitchen Confidential first alerted us to the idiosyncrasies and lurking perils of eating out, from Monday fish to the breadbasket conspiracy, much has …
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2012/03/tumblr_m13ba5heey1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 The long-awaited follow-up to the megabestseller _Kitchen Confidential_

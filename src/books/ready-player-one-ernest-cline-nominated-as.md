@@ -11,7 +11,6 @@ categories:
   - books
 excerpt: |
   At once wildly original and stuffed with irresistible nostalgia, READY PLAYER ONE is a spectacularly genre-busting, ambitious, and charming debut—part quest novel, part love story, and part virtual space opera set in a universe where spell-slinging mages battle giant Japanese robots, entire planets are inspired by Blade Runner, and flying DeLoreans achieve light speed.
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2018/06/tumblr_pa3x1ihofz1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 

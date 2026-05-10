@@ -13,7 +13,6 @@ categories:
   - books
 excerpt: |
   Inspired by her bold move to Maine and New Hampshire, as well as the slow-food movement that has re-energized sustainable farming, NYT bestselling author Kate Christensen turns her blockbuster talent to telling the story of the hardship and happiness that has sustained her adopted home through thick and thin, as demonstrated through the staple foods of the region.
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2016/08/tumblr_ochldu4odt1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 

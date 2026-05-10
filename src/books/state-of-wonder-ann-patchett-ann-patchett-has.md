@@ -9,7 +9,6 @@ categories:
   - fiction
 excerpt: |
   State of Wonder Ann Patchett Ann Patchett has dazzled readers with her award-winning books, including The Magician’s Assistant and the New York Times bestselling Bel Canto. Now she raises the bar with State of Wonder, a provocative and ambitious novel set deep in the Amazon jungle. Dr. Marina Singh, a research scientist with a Minnesota …
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2012/11/tumblr_mdvgqlisjp1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 Ann Patchett has dazzled readers with her award-winning books, including _The Magician’s Assistant_ and the _New York Times_ bestselling _Bel Canto_. Now she raises the bar with _State of Wonder_, a provocative and ambitious novel set deep in the Amazon jungle.

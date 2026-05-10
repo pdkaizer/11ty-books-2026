@@ -11,7 +11,6 @@ categories:
   - books
 excerpt: |
   In May 1996 three expeditions attempted to climb Mount Everest on the Southeast Ridge route pioneered by Sir Edmund Hillary and Tenzing Norgay in 1953. Crowded conditions slowed their progress
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2015/03/tumblr_nlf3349l6k1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 

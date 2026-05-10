@@ -11,7 +11,6 @@ categories:
   - books
 excerpt: |
   Detroit ex-cop August Snow takes up vigilante justice when his beloved neighborhood of Mexicantown is caught in the crosshairs of a human trafficking scheme.
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2021/08/lives-away-683x1024.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 

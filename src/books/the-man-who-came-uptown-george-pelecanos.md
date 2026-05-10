@@ -11,7 +11,6 @@ categories:
   - books
 excerpt: |
   Michael Hudson spends the long days in prison devouring books given to him by the prison’s librarian, a young woman named Anna who develops a soft spot for her best student.
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2018/10/tumblr_ph64je89nn1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 

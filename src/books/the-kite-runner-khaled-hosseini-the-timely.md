@@ -9,7 +9,6 @@ categories:
   - fiction
 excerpt: |
   The Kite Runner Khaled Hosseini The timely and critically acclaimed debut novel that’s becoming a word-of-mouth phenomenon. An epic tale of fathers and sons, of friendship and betrayal, that takes us from Afghanistan in the final days of the monarchy to the atrocities of the present. The unforgettable, heartbreaking story of the unlikely friendship between …
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2012/11/tumblr_mdvgz0e0nb1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 The timely and critically acclaimed debut novel that’s becoming a word-of-mouth phenomenon. An epic tale of fathers and sons, of friendship and betrayal, that takes us from Afghanistan in the final days of the monarchy to the atrocities of the present.

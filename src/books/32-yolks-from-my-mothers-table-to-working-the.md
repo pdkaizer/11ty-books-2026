@@ -12,7 +12,6 @@ categories:
   - books
 excerpt: |
   Hailed by Anthony Bourdain as “heartbreaking, horrifying, poignant, and inspiring,” *32 Yolks *is the brave and affecting coming-of-age story about the making of a French chef, from the culinary icon behind the renowned New York City restaurant Le Bernardin.
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2016/06/tumblr_o8w3uqqa3a1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 

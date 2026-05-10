@@ -8,11 +8,11 @@ tags:
   - food
   - memoir
   - non-fiction
+coverUrl: "https://m.media-amazon.com/images/I/81GNRw44saL._SL1500_.jpg"
 categories:
   - books
 excerpt: |
   By the time he was twenty-seven years old, Kwame Onwuachi had opened—and closed—one of the most talked-about restaurants in America.
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2020/05/note-young-black-chef-663x1024.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 

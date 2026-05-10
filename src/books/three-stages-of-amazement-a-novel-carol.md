@@ -11,7 +11,6 @@ categories:
   - fiction
 excerpt: |
   Three Stages of Amazement: A Novel Carol Edgarian A sweeping, richly compassionate novel about marriage, ambition, and the reclaiming of love—by the bestselling novelist and cofounder of* Narrative* magazine. Many love stories end in marriage; rare is the love story that begins with one—already promised, already worn. Set in San Francisco during the first year …
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2012/03/tumblr_m13b3ynmyn1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 A sweeping, richly compassionate novel about marriage, ambition, and the reclaiming of love—by the bestselling novelist and cofounder of* Narrative* magazine.

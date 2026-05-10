@@ -11,7 +11,6 @@ categories:
   - books
 excerpt: |
   In the tradition of Into Thin Air and Touching the Void, No Way Down by New York Times reporter Graham Bowley is the harrowing account of the worst mountain-climbing disaster on K2
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2015/03/tumblr_nlf34kdpm41rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 

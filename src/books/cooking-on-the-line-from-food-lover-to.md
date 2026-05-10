@@ -11,9 +11,9 @@ tags:
 categories:
   - books
   - non-fiction
+coverUrl: "https://m.media-amazon.com/images/I/612cxMY9DNL._SL1360_.jpg"
 excerpt: |
   A unique behind the scenes, ground level, cooks-eye-view of the professional restaurant kitchen. You will feel the heat, the pressure, and the intensity of cooking at the highest level.
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2015/01/tumblr_ni8537ovsk1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 

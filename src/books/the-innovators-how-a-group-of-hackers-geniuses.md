@@ -11,7 +11,6 @@ categories:
   - books
 excerpt: |
   In his masterly saga, Isaacson begins with Ada Lovelace, Lord Byron’s daughter, who pioneered computer programming in the 1840s.
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2015/01/tumblr_ni855ul0jr1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 

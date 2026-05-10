@@ -11,7 +11,6 @@ categories:
   - non-fiction
 excerpt: |
   My Reading Life Pat Conroy **Bestselling author Pat Conroy acknowledges the books that have shaped him and celebrates the profound effect reading has had on his life. ** Pat Conroy, the beloved American storyteller, is a voracious reader. Starting as a childhood passion that bloomed into a life-long companion, reading has been Conroy’s portal to …
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2012/03/tumblr_m13x8utref1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 **Bestselling author Pat Conroy acknowledges the books that have shaped him and celebrates the profound effect reading has had on his life. **

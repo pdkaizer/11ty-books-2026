@@ -11,7 +11,6 @@ categories:
   - books
 excerpt: |
   National Book Award finalist and New York Times bestselling author Allegra Goodman has written a delicious novel about appetite, temptation, and holding on to what is real in a virtual world: love that stays.
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2012/03/tumblr_m131qb3pbc1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 

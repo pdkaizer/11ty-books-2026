@@ -4,12 +4,12 @@ author: "Poppy Z. Brite"
 isbn: "9780307537720"
 date: 2012-11-22
 slug: liquor-a-novel-poppy-z-brite-new-orleans
+coverUrl: "https://m.media-amazon.com/images/I/611a1UFBQ8L._SL1203_.jpg"
 categories:
   - books
   - fiction
 excerpt: |
   Liquor: A Novel Poppy Z. Brite New Orleans natives Rickey and G-man are lifetime friends and down-and-out line cooks desperate to make a quick buck. When Rickey concocts the idea of opening a restaurant in their alcohol-loving hometown where every dish packs a spirited punch, they know they’re on their way to the bank. With …
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2012/11/tumblr_mdvgs1qf741rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 New Orleans natives Rickey and G-man are lifetime friends and down-and-out line cooks desperate to make a quick buck. When Rickey concocts the idea of opening a restaurant in their alcohol-loving hometown where every dish packs a spirited punch, they know they’re on their way to the bank. With some wheeling and dealing, a slew of great recipes, and a few lucky breaks, Rickey and G-man are soon on their way to opening Liquor, their very own restaurant. But ?rst they need to pacify a local crank who doesn’t want to see his neighborhood disturbed, sidestep Rickey’s deranged ex-boss, rein in their big-mouth silent partner before he runs amok, and stay afloat in a stew of corruption in a town well known for its bottom feeders.

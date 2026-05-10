@@ -11,7 +11,6 @@ categories:
   - books
 excerpt: |
   Now both French and Detective Cassie Maddox return to unravel a case even more sinister and enigmatic than the first. Six months after the events of In the Woods, an urgent telephone call beckons Cassie to a grisly crime scene.
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2015/01/tumblr_ni8542ad3k1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 

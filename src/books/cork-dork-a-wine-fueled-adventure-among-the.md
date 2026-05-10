@@ -7,11 +7,11 @@ slug: cork-dork-a-wine-fueled-adventure-among-the
 tags:
   - food
   - non-fiction
+coverUrl: "https://m.media-amazon.com/images/I/91dvKyFx10L._SL1500_.jpg"
 categories:
   - books
 excerpt: |
   Professional journalist and amateur drinker Bianca Bosker didn’t know much about wine—until she discovered an alternate universe where taste reigns supreme, a world of elite sommeliers who dedicate their lives to the pursuit of flavor.
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2017/07/tumblr_otbbasridg1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 

@@ -11,7 +11,6 @@ categories:
   - books
 excerpt: |
   Harry Bosch is back as a volunteer working cold cases for the San Fernando Police Department and is called out to a local drug store where a young pharmacist has been murdered.
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2017/12/tumblr_p107kdgric1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 

@@ -11,7 +11,6 @@ categories:
   - books
 excerpt: |
   William Gibson William Gibson has trained his eye on the future for decades, ever since coining the term “cyberspace” and then popularizing it in his classic speculative novel Neuromancer in the early 1980s. Cory Doctorow raved that The Peripheral is “spectacular, a piece of trenchant, far-future speculation that features all the eyeball kicks of Neuromancer.” …
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2021/08/agency-678x1024.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 

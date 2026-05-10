@@ -13,7 +13,6 @@ categories:
   - books
 excerpt: |
   Into Thin Air is the definitive, personal account of the deadliest season in the history of Everest by the acclaimed journalist and author of Eiger Dreams and Into the Wild.
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2016/01/tumblr_o1obxttwkz1rs3h38o1_250.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 

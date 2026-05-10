@@ -10,7 +10,6 @@ categories:
   - books
 excerpt: |
   Pat Conroy tells the story of Tom Wingo, his twin sister, Savannah, and the dark and violent past of the family into which they were born.
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2017/09/tumblr_ovtmjlkbfj1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 
