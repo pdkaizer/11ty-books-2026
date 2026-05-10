@@ -11,8 +11,7 @@
   <link rel="stylesheet" href="/css/main.css">
   <script>
     try {
-      var t = localStorage.getItem('theme');
-      if (t === 'dark' || (!t && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      if (localStorage.getItem('theme') === 'dark') {
         document.documentElement.setAttribute('data-theme', 'dark');
       }
     } catch(e) {}
