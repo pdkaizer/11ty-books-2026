@@ -504,6 +504,11 @@
     font-weight: normal;
     line-height: 1.1;
   }
+  .book-archive__intro {
+    margin-block-start: var(--space-4);
+    color: var(--color-text-muted);
+    max-width: 100%;
+  }
 
   /* Tag archive heading */
   .tag-archive__heading {
