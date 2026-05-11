@@ -11,7 +11,6 @@ categories:
   - books
 excerpt: |
   The definitive biography of America’s best-known and least-understood food personality, and the modern culinary landscape he shaped.
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2021/08/man-ate-too-much-672x1024.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 

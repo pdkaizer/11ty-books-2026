@@ -12,7 +12,6 @@ tags:
 categories:
   - books
 excerpt: "The prescient, page-turning account of a journey in Silicon Valley: a defining memoir of our digital age"
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2021/08/uncanny-valley-667x1024.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 

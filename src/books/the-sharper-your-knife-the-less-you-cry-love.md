@@ -12,7 +12,6 @@ categories:
   - non-fiction
 excerpt: |
   The Sharper Your Knife, the Less You Cry: Love, Laughter, and Tears at the World’s Most Famous Cooking School Kathleen Flinn A delightful true story of food, Paris, and the fulfillment of a lifelong dream In 2003, Kathleen Flinn, a thirty-six-year-old American living and working in London, returned from vacation to find that her corporate …
-coverUrl: "https://books.peterkaizer.com/wp-content/uploads/2012/03/tumblr_m13bk0gmbg1rs3h38o1_400.jpg" # original WP image — replaced by Open Library at build time if isbn is set
 ---
 
 **A delightful true story of food, Paris, and the fulfillment of a lifelong dream**
