@@ -11,6 +11,7 @@ tags:
   - business
 categories:
   - books
+coverUrl: "https://m.media-amazon.com/images/I/71OtRfWWYbL._SL1500_.jpg"
 excerpt: "The prescient, page-turning account of a journey in Silicon Valley: a defining memoir of our digital age"
 ---
 
