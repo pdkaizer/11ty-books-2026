@@ -2,6 +2,24 @@
 layout: layouts/base.njk
 ---
 
+{% if currentlyReading.title %}
+  <div class="hero l-wrapper">
+    <div class="hero__cover">
+      {% bookCover currentlyReading.isbn, currentlyReading.title, currentlyReading.coverUrl %}
+    </div>
+    <div class="hero__meta">
+      <p class="hero__eyebrow">Currently Reading</p>
+      <h2 class="hero__title">{{ currentlyReading.title }}</h2>
+      {% if currentlyReading.author %}
+        <p class="hero__author">{{ currentlyReading.author }}</p>
+      {% endif %}
+      {% if currentlyReading.excerpt %}
+        <p class="hero__excerpt">{{ currentlyReading.excerpt }}</p>
+      {% endif %}
+    </div>
+  </div>
+{% endif %}
+
 <div class="book-archive l-wrapper">
 
   <div class="book-archive__header">

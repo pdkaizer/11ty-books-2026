@@ -484,6 +484,55 @@
 }
 
 @layer pages {
+  /* ── Currently reading hero ── */
+  .hero {
+    display: flex;
+    align-items: center;
+    gap: var(--space-8);
+    padding-block: var(--space-12);
+    border-block-end: 1px solid var(--color-border);
+  }
+  .hero__cover {
+    flex-shrink: 0;
+    width: 8rem;
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: var(--color-bg-subtle);
+    box-shadow: 0 4px 24px color-mix(in srgb, var(--color-text) 12%, transparent);
+  }
+  .hero__cover img { width: 100%; height: auto; display: block; }
+  .hero__cover picture { display: block; }
+  .hero__meta {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+  .hero__eyebrow {
+    font-size: var(--text-xs);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+    margin-block-end: var(--space-2);
+  }
+  .hero__title {
+    font-family: var(--font-serif);
+    font-size: var(--text-2xl);
+    font-weight: normal;
+    line-height: 1.15;
+  }
+  .hero__author {
+    margin-block-start: var(--space-2);
+    color: var(--color-text-muted);
+  }
+  .hero__excerpt {
+    margin-block-start: var(--space-4);
+    color: var(--color-text-muted);
+    line-height: 1.6;
+    max-width: none;
+  }
+  @media (width < 30rem) {
+    .hero { flex-direction: column; align-items: flex-start; text-align: left; }
+  }
+
   /* ── Book archive (index + tag pages) ── */
   .book-archive {
     padding-block: var(--space-12);
