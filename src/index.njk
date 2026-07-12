@@ -16,6 +16,14 @@ layout: layouts/base.njk
       {% if currentlyReading.excerpt %}
         <p class="hero__excerpt">{{ currentlyReading.excerpt }}</p>
       {% endif %}
+      {% if currentlyReading.progress %}
+        <div class="hero__progress">
+          <div class="hero__progress-track" role="progressbar" aria-valuenow="{{ currentlyReading.progress }}" aria-valuemin="0" aria-valuemax="100" aria-label="Reading progress">
+            <div class="hero__progress-fill" style="width: {{ currentlyReading.progress }}%"></div>
+          </div>
+          <span class="hero__progress-label">{{ currentlyReading.progress }}% finished</span>
+        </div>
+      {% endif %}
     </div>
   </div>
 {% endif %}
