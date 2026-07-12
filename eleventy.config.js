@@ -1,6 +1,8 @@
 import eleventyImage from "@11ty/eleventy-img";
 import { fileURLToPath } from "url";
 import path from "path";
+import fs from "fs/promises";
+import matter from "gray-matter";
 import site from "./src/_data/site.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -74,6 +76,100 @@ async function resolveCoverSrc(isbn, coverUrl) {
   return null;
 }
 
+const MISSING_COVER_HTML = (title) =>
+  `<div class="book-cover book-cover--missing" aria-label="${title ? `Cover not found for ${title}` : "No cover available"}"></div>`;
+
+async function computeCoverAssets(isbn, coverUrl, title) {
+  let src;
+  try {
+    src = await resolveCoverSrc(isbn, coverUrl);
+  } catch {
+    src = null;
+  }
+
+  if (!src) return { html: MISSING_COVER_HTML(title), ogTag: "" };
+
+  try {
+    const metadata = await withRetry(() => eleventyImage(src, COVER_IMAGE_OPTIONS));
+
+    const html = eleventyImage.generateHTML(metadata, {
+      alt: `Cover of ${title}`,
+      class: "book-cover__img",
+      sizes: "(min-width: 60rem) 200px, (min-width: 40rem) 160px, 140px",
+      loading: "lazy",
+      decoding: "async",
+    });
+
+    const largest = metadata.jpeg[metadata.jpeg.length - 1];
+    const ogTag = [
+      `<meta property="og:image" content="${site.url}${largest.url}">`,
+      `<meta property="og:image:width" content="${largest.width}">`,
+      `<meta property="og:image:height" content="${largest.height}">`,
+      `<meta name="twitter:card" content="summary_large_image">`,
+    ].join("\n  ");
+
+    return { html, ogTag };
+  } catch {
+    return { html: MISSING_COVER_HTML(title), ogTag: "" };
+  }
+}
+
+// ── Cover precomputation ──────────────────────────────────────────────────────
+// Resolving 150 covers one at a time (as each page rendered) made builds take
+// 7-9 minutes and eventually timed out on Netlify. Resolve them all up front,
+// concurrently, before any page is rendered — the shortcodes below then do a
+// synchronous cache lookup instead of a network round trip.
+
+const coverCache = new Map();
+
+function coverKey(isbn, coverUrl) {
+  return coverUrl || isbn || null;
+}
+
+async function mapLimit(items, limit, fn) {
+  let index = 0;
+  async function worker() {
+    while (index < items.length) {
+      const current = items[index++];
+      await fn(current);
+    }
+  }
+  await Promise.all(Array.from({ length: Math.min(limit, items.length) }, worker));
+}
+
+async function precomputeCovers() {
+  coverCache.clear();
+
+  const entries = [];
+
+  const bookFiles = (await fs.readdir("./src/books")).filter((f) => f.endsWith(".md"));
+  for (const file of bookFiles) {
+    const raw = await fs.readFile(path.join("./src/books", file), "utf8");
+    const { data } = matter(raw);
+    entries.push({ isbn: data.isbn, coverUrl: data.coverUrl, title: data.title });
+  }
+
+  try {
+    const { default: currentlyReading } = await import(
+      `./src/_data/currentlyReading.js?update=${Date.now()}`
+    );
+    if (currentlyReading) entries.push(currentlyReading);
+  } catch {
+    // no currently-reading data
+  }
+
+  const uniqueEntries = new Map();
+  for (const entry of entries) {
+    const key = coverKey(entry.isbn, entry.coverUrl);
+    if (key && !uniqueEntries.has(key)) uniqueEntries.set(key, entry);
+  }
+
+  await mapLimit([...uniqueEntries.values()], 10, async (entry) => {
+    const key = coverKey(entry.isbn, entry.coverUrl);
+    coverCache.set(key, await computeCoverAssets(entry.isbn, entry.coverUrl, entry.title));
+  });
+}
+
 // ── Eleventy config ──────────────────────────────────────────────────────────
 
 export default function (eleventyConfig) {
@@ -85,35 +181,23 @@ export default function (eleventyConfig) {
   // Watch CSS for changes during dev
   eleventyConfig.addWatchTarget("src/css/");
 
+  // Resolve every book's cover concurrently before any page renders — see
+  // "Cover precomputation" above.
+  eleventyConfig.on("eleventy.before", async () => {
+    await precomputeCovers();
+  });
+
   // ── bookCover shortcode ────────────────────────────────────────────────────
   // Usage in Nunjucks: {% bookCover isbn, title %}
   // Generates an optimised <picture> with AVIF/WebP/JPEG sources
 
   eleventyConfig.addAsyncShortcode("bookCover", async (isbn, title, coverUrl) => {
-    let src;
-    try {
-      src = await resolveCoverSrc(isbn, coverUrl);
-    } catch {
-      src = null;
-    }
+    const key = coverKey(isbn, coverUrl);
+    const cached = key && coverCache.get(key);
+    if (cached) return cached.html;
 
-    if (!src) {
-      return `<div class="book-cover book-cover--missing" aria-label="No cover available"></div>`;
-    }
-
-    try {
-      const metadata = await withRetry(() => eleventyImage(src, COVER_IMAGE_OPTIONS));
-
-      return eleventyImage.generateHTML(metadata, {
-        alt: `Cover of ${title}`,
-        class: "book-cover__img",
-        sizes: "(min-width: 60rem) 200px, (min-width: 40rem) 160px, 140px",
-        loading: "lazy",
-        decoding: "async",
-      });
-    } catch {
-      return `<div class="book-cover book-cover--missing" aria-label="Cover not found for ${title}"></div>`;
-    }
+    // Cache miss (e.g. data changed after precompute ran) — resolve directly.
+    return (await computeCoverAssets(isbn, coverUrl, title)).html;
   });
 
   // ── ogImageMeta shortcode ──────────────────────────────────────────────────
@@ -122,28 +206,11 @@ export default function (eleventyConfig) {
   // cover resolution as bookCover, reusing its already-generated image.
 
   eleventyConfig.addAsyncShortcode("ogImageMeta", async (isbn, coverUrl) => {
-    let src;
-    try {
-      src = await resolveCoverSrc(isbn, coverUrl);
-    } catch {
-      src = null;
-    }
+    const key = coverKey(isbn, coverUrl);
+    const cached = key && coverCache.get(key);
+    if (cached) return cached.ogTag;
 
-    if (!src) return "";
-
-    try {
-      const metadata = await withRetry(() => eleventyImage(src, COVER_IMAGE_OPTIONS));
-      const largest = metadata.jpeg[metadata.jpeg.length - 1];
-
-      return [
-        `<meta property="og:image" content="${site.url}${largest.url}">`,
-        `<meta property="og:image:width" content="${largest.width}">`,
-        `<meta property="og:image:height" content="${largest.height}">`,
-        `<meta name="twitter:card" content="summary_large_image">`,
-      ].join("\n  ");
-    } catch {
-      return "";
-    }
+    return (await computeCoverAssets(isbn, coverUrl, "")).ogTag;
   });
 
   // ── Collections ────────────────────────────────────────────────────────────
