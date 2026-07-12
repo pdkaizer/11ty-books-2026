@@ -12,23 +12,48 @@ const OPEN_LIBRARY_URL = (isbn) =>
 const GOOGLE_BOOKS_URL = (isbn) =>
   `https://www.googleapis.com/books/v1/volumes?q=isbn:${isbn}`;
 
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+// Open Library covers redirect through archive.org, which is occasionally
+// slow/flaky on CI build machines — retry transient failures before giving up.
+async function withRetry(fn, retries = 2, delayMs = 500) {
+  for (let attempt = 0; ; attempt++) {
+    try {
+      return await fn();
+    } catch (err) {
+      if (attempt === retries) throw err;
+      await sleep(delayMs * (attempt + 1));
+    }
+  }
+}
+
 async function resolveCoverUrl(isbn) {
   const olUrl = OPEN_LIBRARY_URL(isbn);
-  const probe = await fetch(olUrl, { method: "HEAD" });
-  const contentType = probe.headers.get("content-type") ?? "";
 
-  if (probe.ok && contentType.startsWith("image/jpeg")) {
-    return olUrl;
+  try {
+    const probe = await withRetry(() => fetch(olUrl, { method: "HEAD" }));
+    const contentType = probe.headers.get("content-type") ?? "";
+    if (probe.ok && contentType.startsWith("image/jpeg")) {
+      return olUrl;
+    }
+  } catch {
+    // fall through to Google Books
   }
 
   // Fallback: Google Books
-  const gbRes = await fetch(GOOGLE_BOOKS_URL(isbn));
-  const gbData = await gbRes.json();
-  const thumbnail = gbData.items?.[0]?.volumeInfo?.imageLinks?.thumbnail ?? null;
+  try {
+    const gbRes = await withRetry(() => fetch(GOOGLE_BOOKS_URL(isbn)));
+    const gbData = await gbRes.json();
+    const thumbnail = gbData.items?.[0]?.volumeInfo?.imageLinks?.thumbnail ?? null;
 
-  return thumbnail
-    ? thumbnail.replace("http://", "https://").replace("zoom=1", "zoom=3")
-    : null;
+    return thumbnail
+      ? thumbnail.replace("http://", "https://").replace("zoom=1", "zoom=3")
+      : null;
+  } catch {
+    return null;
+  }
 }
 
 // ── Eleventy config ──────────────────────────────────────────────────────────
@@ -64,16 +89,18 @@ export default function (eleventyConfig) {
     }
 
     try {
-      const metadata = await eleventyImage(src, {
-        widths: [200, 400, 600],
-        formats: ["avif", "webp", "jpeg"],
-        outputDir: "./_site/images/covers/",
-        urlPath: "/images/covers/",
-        cacheOptions: {
-          duration: "30d",
-          type: "buffer",
-        },
-      });
+      const metadata = await withRetry(() =>
+        eleventyImage(src, {
+          widths: [200, 400, 600],
+          formats: ["avif", "webp", "jpeg"],
+          outputDir: "./_site/images/covers/",
+          urlPath: "/images/covers/",
+          cacheOptions: {
+            duration: "30d",
+            type: "buffer",
+          },
+        })
+      );
 
       return eleventyImage.generateHTML(metadata, {
         alt: `Cover of ${title}`,
