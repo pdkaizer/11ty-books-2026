@@ -4,7 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{% if title %}{{ title }} — {% endif %}Peter Kaizer | Recommended Books</title>
-  <meta name="description" content="{% if excerpt %}{{ excerpt }}{% else %}Peter Kaizer's recommended books across fiction, non-fiction, biography, technology, and food.{% endif %}">
+  <meta name="description" content="{% if description %}{{ description }}{% elif excerpt %}{{ excerpt }}{% else %}Peter Kaizer's recommended books across fiction, non-fiction, biography, technology, and food.{% endif %}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:title" content="{% if title %}{{ title }}{% else %}Peter Kaizer | Recommended Books{% endif %}">
+  <meta property="og:description" content="{% if description %}{{ description }}{% elif excerpt %}{{ excerpt }}{% else %}Peter Kaizer's recommended books across fiction, non-fiction, biography, technology, and food.{% endif %}">
+  {% if "/books/" in page.url %}
+    {% ogImageMeta isbn, coverUrl %}
+  {% elif page.url == "/" %}
+    {% ogImageMeta currentlyReading.isbn, currentlyReading.coverUrl %}
+  {% endif %}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">

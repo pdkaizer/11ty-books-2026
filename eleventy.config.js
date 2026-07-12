@@ -1,8 +1,20 @@
 import eleventyImage from "@11ty/eleventy-img";
 import { fileURLToPath } from "url";
 import path from "path";
+import site from "./src/_data/site.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
+const COVER_IMAGE_OPTIONS = {
+  widths: [200, 400, 600],
+  formats: ["avif", "webp", "jpeg"],
+  outputDir: "./_site/images/covers/",
+  urlPath: "/images/covers/",
+  cacheOptions: {
+    duration: "30d",
+    type: "buffer",
+  },
+};
 
 // ── Open Library cover resolver ──────────────────────────────────────────────
 
@@ -56,6 +68,12 @@ async function resolveCoverUrl(isbn) {
   }
 }
 
+async function resolveCoverSrc(isbn, coverUrl) {
+  if (coverUrl) return coverUrl;
+  if (isbn) return resolveCoverUrl(isbn);
+  return null;
+}
+
 // ── Eleventy config ──────────────────────────────────────────────────────────
 
 export default function (eleventyConfig) {
@@ -72,16 +90,11 @@ export default function (eleventyConfig) {
   // Generates an optimised <picture> with AVIF/WebP/JPEG sources
 
   eleventyConfig.addAsyncShortcode("bookCover", async (isbn, title, coverUrl) => {
-    let src = null;
-
-    if (coverUrl) {
-      src = coverUrl;
-    } else if (isbn) {
-      try {
-        src = await resolveCoverUrl(isbn);
-      } catch {
-        // fall through to missing cover
-      }
+    let src;
+    try {
+      src = await resolveCoverSrc(isbn, coverUrl);
+    } catch {
+      src = null;
     }
 
     if (!src) {
@@ -89,18 +102,7 @@ export default function (eleventyConfig) {
     }
 
     try {
-      const metadata = await withRetry(() =>
-        eleventyImage(src, {
-          widths: [200, 400, 600],
-          formats: ["avif", "webp", "jpeg"],
-          outputDir: "./_site/images/covers/",
-          urlPath: "/images/covers/",
-          cacheOptions: {
-            duration: "30d",
-            type: "buffer",
-          },
-        })
-      );
+      const metadata = await withRetry(() => eleventyImage(src, COVER_IMAGE_OPTIONS));
 
       return eleventyImage.generateHTML(metadata, {
         alt: `Cover of ${title}`,
@@ -111,6 +113,36 @@ export default function (eleventyConfig) {
       });
     } catch {
       return `<div class="book-cover book-cover--missing" aria-label="Cover not found for ${title}"></div>`;
+    }
+  });
+
+  // ── ogImageMeta shortcode ──────────────────────────────────────────────────
+  // Usage in Nunjucks: {% ogImageMeta isbn, coverUrl %}
+  // Outputs an absolute og:image (+ twitter:card) meta tag using the same
+  // cover resolution as bookCover, reusing its already-generated image.
+
+  eleventyConfig.addAsyncShortcode("ogImageMeta", async (isbn, coverUrl) => {
+    let src;
+    try {
+      src = await resolveCoverSrc(isbn, coverUrl);
+    } catch {
+      src = null;
+    }
+
+    if (!src) return "";
+
+    try {
+      const metadata = await withRetry(() => eleventyImage(src, COVER_IMAGE_OPTIONS));
+      const largest = metadata.jpeg[metadata.jpeg.length - 1];
+
+      return [
+        `<meta property="og:image" content="${site.url}${largest.url}">`,
+        `<meta property="og:image:width" content="${largest.width}">`,
+        `<meta property="og:image:height" content="${largest.height}">`,
+        `<meta name="twitter:card" content="summary_large_image">`,
+      ].join("\n  ");
+    } catch {
+      return "";
     }
   });
 
