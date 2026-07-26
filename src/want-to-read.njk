@@ -1,0 +1,36 @@
+---
+layout: layouts/base.njk
+title: Want to Read
+permalink: /want-to-read/
+---
+
+<div class="book-archive l-wrapper">
+
+  <div class="book-archive__header">
+    <h1 class="book-archive__heading" id="archive-heading">Want to Read</h1>
+    <p class="book-archive__intro">Books on my list, not yet started.</p>
+  </div>
+
+  {% if wantToRead.length %}
+    <ul class="book-grid" aria-label="Want to read list">
+      {% for book in wantToRead %}
+        <li>
+          <div class="book-card">
+            <div class="book-card__cover">
+              {% bookCover book.isbn, book.title, book.coverUrl %}
+            </div>
+            <div class="book-card__meta">
+              <h2 class="book-card__title">{{ book.title }}</h2>
+              {% if book.author %}
+                <p class="book-card__author">{{ book.author }}</p>
+              {% endif %}
+            </div>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p class="book-archive__intro">Nothing on the list yet.</p>
+  {% endif %}
+
+</div>

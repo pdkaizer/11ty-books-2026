@@ -158,6 +158,15 @@ async function precomputeCovers() {
     // no currently-reading data
   }
 
+  try {
+    const { default: wantToRead } = await import(
+      `./src/_data/wantToRead.js?update=${Date.now()}`
+    );
+    if (wantToRead) entries.push(...wantToRead);
+  } catch {
+    // no want-to-read data
+  }
+
   const uniqueEntries = new Map();
   for (const entry of entries) {
     const key = coverKey(entry.isbn, entry.coverUrl);
