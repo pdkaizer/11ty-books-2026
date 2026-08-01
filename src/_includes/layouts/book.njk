@@ -5,8 +5,13 @@ layout: layouts/base.njk
 <div class="l-wrapper">
   <article class="book">
 
-    <div class="book__cover">
-      {% bookCover isbn, title, coverUrl %}
+    <div class="book__cover-group">
+      <div class="book__cover">
+        {% bookCover isbn, title, coverUrl %}
+      </div>
+      {% if isbn %}
+        <a href="https://bookshop.org/a/116810/{{ isbn }}" class="btn btn--primary book__buy" target="_blank" rel="noopener sponsored">Buy on Bookshop.org</a>
+      {% endif %}
     </div>
 
     <div class="book__header">
