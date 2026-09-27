@@ -3,3 +3,9 @@ _site/
 .cache/
 migration-report.json
 .DS_Store
+
+# Local Netlify folder
+.netlify
+
+# Local Basecamp CLI config
+.basecamp
