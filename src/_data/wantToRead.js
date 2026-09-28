@@ -13,4 +13,16 @@ export default [
     isbn: "9780399590092",
     coverUrl: "https://images1.penguinrandomhouse.com/cover/9780399590092",
   },
+  {
+    title: "We Will See You Bleed",
+    author: "Ron Currie Jr.",
+    isbn: "9780593851692",
+    coverUrl: "https://www.publishersweekly.com/cover/9780593851692",
+  },
+  {
+    title: "The Road to Tender Hearts",
+    author: "Annie  Hartnett",
+    isbn: "9780593873465",
+    coverUrl: "https://m.media-amazon.com/images/I/81QTeuCjO6L._SL1500_.jpg",
+  }
 ];
